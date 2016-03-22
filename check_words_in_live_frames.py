@@ -1,5 +1,5 @@
 import sys
-from pprint import pprint
+import time
 import random
 #------------------------------------------------------------
 # run time increases a lot with longer networknames (->perhaps only allow below a threshold)
@@ -148,7 +148,6 @@ def returnElements(elementListSpaceDivided):
 			break
 	
 	if(hasAll): 
-		# print "WE GOT IT"
 		for elem in elems:
 			randomNetworkName = random.sample(unused[elem], 1)[0]
 			# print randomNetworkName
@@ -164,15 +163,24 @@ def returnElements(elementListSpaceDivided):
 
 def printNewPoem(parts, _pattern):
 	print "-"*30
-	print "\n\nNew Air Poem:\n\n\n"
+	print "\n\n\n\tNew Air Poem:\n\n\n"
 	for i in range(2): #for networknames and words
 		count = 0
 		for line in range(len(_pattern)): #for each line
+			print "\t",
 			for word in range(_pattern[line]):
 				print parts[count][i],
 				count += 1
 			print ""
-		print ""		
+		print ""
+	print "\n\n"
+	# print today.strftime("\t\textracted from air")
+	# print "\t\t\ton " + time.strftime("%A") + ", " + time.strftime("%B") + " " + time.strftime("%d") + " " + time.strftime("%Y")
+	# print "\t\t\tat " + time.strftime("%X")
+	print "\t\textracted from air,"
+	print "\t\t" + time.strftime("%A") + ", " + time.strftime("%B") + " " + time.strftime("%d") + " " + time.strftime("%Y") + ", " + time.strftime("%X")
+
+	print "\n\n"			
 	print "-"*30
 
 def constructSentence():
@@ -204,315 +212,12 @@ def constructSentence():
 	# adjective noun
 	# -
 	# adjective noun
-	sentenceParts = returnElements("people noun noun")
+	sentenceParts = returnElements("noun")
 	if (len(sentenceParts)):
-		# print "got it"
-		# print sentenceParts
-		pattern = [1,2] #describe words per line
+		pattern = [1] #describe words per line
 		printNewPoem(sentenceParts, pattern)
 
-	# # people verb people
-	# if len(unused["people"]) > 1 and len(unused["verb"]) > 0 :
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
 
-	# 	for a in unused["people"]:
-	# 		peo1net = a #this has to be random
-	# 		break
-	# 	peo1word = unused["people"].pop(peo1net)
-		
-	# 	for b in unused["verb"]:
-	# 		ver1net = b
-	# 		break
-	# 	ver1word = unused["verb"].pop(ver1net)
-
-	# 	for c in unused["people"]:
-	# 		peo2net = c
-	# 		break
-	# 	peo2word = unused["people"].pop(peo2net)
-
-	# 	print peo1net, ver1net, peo2net
-	# 	print "\n"
-	# 	print peo1word, ver1word, peo2word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-	# # people verb noun
-	# if len(unused["people"]) > 0 and len(unused["verb"]) > 0 and len(unused["noun"]) > 0 :
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["people"]:
-	# 		peo1net = a
-	# 		break
-	# 	peo1word = unused["people"].pop(peo1net)
-		
-	# 	for b in unused["verb"]:
-	# 		ver1net = b
-	# 		break
-	# 	ver1word = unused["verb"].pop(ver1net)
-
-	# 	for c in unused["noun"]:
-	# 		nou1net = c
-	# 		break
-	# 	nou1word = unused["noun"].pop(nou1net)
-
-	# 	print peo1net, ver1net, nou1net
-	# 	print "\n"
-	# 	print peo1word, ver1word, nou1word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-	# # place 
-	# # adjective people
-	# # obscene
-	# if len(unused["place"]) > 0 and len(unused["adjective"]) > 0 and len(unused["people"]) > 0 and len(unused["obscene"]) > 0:
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["place"]:
-	# 		pla1net = a
-	# 		break
-	# 	pla1word = unused["place"].pop(pla1net)
-
-	# 	for b in unused["adjective"]:
-	# 		adj1net = b
-	# 		break
-	# 	adj1word = unused["adjective"].pop(adj1net)
-
-	# 	for c in unused["people"]:
-	# 		peo1net = c
-	# 		break
-	# 	peo1word = unused["people"].pop(peo1net)
-
-	# 	for d in unused["obscene"]:
-	# 		obs1net = d
-	# 		break
-	# 	obs1word = unused["obscene"].pop(obs1net)
-		
-	# 	print pla1net
-	# 	print "\n"
-	# 	print adj1net, peo1net
-	# 	print "\n"
-	# 	print obs1net
-	# 	print "\n"
-	# 	print pla1word
-	# 	print "\n"
-	# 	print adj1word, peo1word
-	# 	print "\n"
-	# 	print obs1word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-	# # adjective people
-	# # obscene
-	# if len(unused["adjective"]) > 0 and len(unused["people"]) > 0 and len(unused["obscene"]) > 0:
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["adjective"]:
-	# 		adj1net = a
-	# 		break
-	# 	adj1word = unused["adjective"].pop(adj1net)
-
-	# 	for b in unused["people"]:
-	# 		peo1net = b
-	# 		break
-	# 	peo1word = unused["people"].pop(peo1net)
-
-	# 	for c in unused["obscene"]:
-	# 		obs1net = c
-	# 		break
-	# 	obs1word = unused["obscene"].pop(obs1net)
-		
-		
-	# 	print adj1net, peo1net
-	# 	print "\n"
-	# 	print obs1net
-	# 	print "\n"
-	# 	print adj1word, peo1word
-	# 	print "\n"
-	# 	print obs1word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-	# # place 
-	# # adjective people
-	# if len(unused["place"]) > 0 and len(unused["adjective"]) > 0 and len(unused["people"]) > 0:
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["place"]:
-	# 		pla1net = a
-	# 		break
-	# 	pla1word = unused["place"].pop(pla1net)
-
-	# 	for b in unused["adjective"]:
-	# 		adj1net = b
-	# 		break
-	# 	adj1word = unused["adjective"].pop(adj1net)
-
-	# 	for c in unused["people"]:
-	# 		peo1net = c
-	# 		break
-	# 	peo1word = unused["people"].pop(peo1net)
-
-	# 	print pla1net
-	# 	print "\n"
-	# 	print adj1net, peo1net
-	# 	print "\n"
-	# 	print pla1word
-	# 	print "\n"
-	# 	print adj1word, peo1word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-	# # adjective people
-	# if len(unused["adjective"]) > 0 and len(unused["people"]) > 0 :
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["adjective"]:
-	# 		adj1net = a
-	# 		break
-	# 	adj1word = unused["adjective"].pop(adj1net)
-
-	# 	for b in unused["people"]:
-	# 		peo1net = b
-	# 		break
-	# 	peo1word = unused["people"].pop(peo1net)
-		
-	# 	print adj1net, peo1net
-	# 	print "\n"
-	# 	print adj1word, peo1word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-
-	# # place 
-	# # adjective noun
-	# # obscene
-	# if len(unused["place"]) > 0 and len(unused["adjective"]) > 0 and len(unused["noun"]) > 0 and len(unused["obscene"]) > 0:
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["place"]:
-	# 		pla1net = a
-	# 		break
-	# 	pla1word = unused["place"].pop(pla1net)
-
-	# 	for b in unused["adjective"]:
-	# 		adj1net = b
-	# 		break
-	# 	adj1word = unused["adjective"].pop(adj1net)
-
-	# 	for c in unused["noun"]:
-	# 		nou1net = c
-	# 		break
-	# 	nou1word = unused["noun"].pop(nou1net)
-
-	# 	for d in unused["obscene"]:
-	# 		obs1net = d
-	# 		break
-	# 	obs1word = unused["obscene"].pop(obs1net)
-		
-	# 	print pla1net
-	# 	print "\n"
-	# 	print adj1net, nou1net
-	# 	print "\n"
-	# 	print obs1net
-	# 	print "\n"
-	# 	print pla1word
-	# 	print "\n"
-	# 	print adj1word, nou1word
-	# 	print "\n"
-	# 	print obs1word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-	# # adjective noun
-	# # obscene
-	# if len(unused["adjective"]) > 0 and len(unused["noun"]) > 0 and len(unused["obscene"]) > 0:
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["adjective"]:
-	# 		adj1net = a
-	# 		break
-	# 	adj1word = unused["adjective"].pop(adj1net)
-
-	# 	for b in unused["noun"]:
-	# 		nou1net = b
-	# 		break
-	# 	nou1word = unused["noun"].pop(nou1net)
-
-	# 	for c in unused["obscene"]:
-	# 		obs1net = c
-	# 		break
-	# 	obs1word = unused["obscene"].pop(obs1net)
-		
-		
-	# 	print adj1net, nou1net
-	# 	print "\n"
-	# 	print obs1net
-	# 	print "\n"
-	# 	print adj1word, nou1word
-	# 	print "\n"
-	# 	print obs1word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-	# # place 
-	# # adjective noun
-	# if len(unused["place"]) > 0 and len(unused["adjective"]) > 0 and len(unused["noun"]) > 0:
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["place"]:
-	# 		pla1net = a
-	# 		break
-	# 	pla1word = unused["place"].pop(pla1net)
-
-	# 	for b in unused["adjective"]:
-	# 		adj1net = b
-	# 		break
-	# 	adj1word = unused["adjective"].pop(adj1net)
-
-	# 	for c in unused["noun"]:
-	# 		nou1net = c
-	# 		break
-	# 	nou1word = unused["noun"].pop(nou1net)
-
-	# 	print pla1net
-	# 	print "\n"
-	# 	print adj1net, nou1net
-	# 	print "\n"
-	# 	print pla1word
-	# 	print "\n"
-	# 	print adj1word, nou1word
-	# 	print "\n\n"
-	# 	print "-"*30
-
-	# # adjective noun
-	# if len(unused["adjective"]) > 0 and len(unused["noun"]) > 0 :
-	# 	print "-"*30
-	# 	print "\n\nNew Air Poem:\n\n\n"
-
-	# 	for a in unused["adjective"]:
-	# 		adj1net = a
-	# 		break
-	# 	adj1word = unused["adjective"].pop(adj1net)
-
-	# 	for b in unused["noun"]:
-	# 		nou1net = b
-	# 		break
-	# 	nou1word = unused["noun"].pop(nou1net)
-		
-	# 	print adj1net, nou1net
-	# 	print "\n"
-	# 	print adj1word, nou1word
-	# 	print "\n\n"
-	# 	print "-"*30
 
 
 
@@ -521,28 +226,26 @@ def sniffloop():
     count = 10
     current_channel = channel_range[-1]
     #next line makes all the difference, making sure the hoping works by disassociating fro any network before start:
-    subprocess.call("airport -z", shell=True)
+    # subprocess.call("airport -z", shell=True)		# DEactivate for TESTING
 
-    for line in run("./bps_v1"):
+    # for line in run("./bps_v1"):		# DEactivate for TESTING
+    for line in open("tisch_working_copy.log", "r"):  # activate for TESTING
 		#next line for channel hoping
-		count = channel_controller(count, channel_hop_interval)
+		# count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
 		line = line.strip()
 		# print line
 
 		words = line.split(',')
 		# print words
-		if(words[1] == "probe"): #ultimately I'll change the lbtins exec to only show probes
+		if(words[1] == "probe"): # ultimately I'll change the lbtins exec to only show probes (probably)
             
 			if words[3] not in alreadyInspected:
 				
 				alreadyInspected.add(words[3])
 				returnList = check_for_words_in_network_name(words[3])
 				if(len(returnList[0]) > 0):
-					# print words[3]
-					# print "\t-->"
-					# print "\t\tresult:", returnList
 					unused[returnList[1]][words[3]] = returnList[0]
-					pprint(unused)
+					# pprint(unused)
 
 		constructSentence()         	
 
@@ -554,7 +257,6 @@ def sniffloop():
 # GLOBAL variables:
 channel_range = [1,6,11,36,40,44,48]
 channel_hop_interval = 50
-
 
 def Main():  
     sniffloop();
