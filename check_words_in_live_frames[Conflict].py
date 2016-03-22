@@ -143,37 +143,28 @@ def returnElements(elementListSpaceDivided):
 
 	hasAll = True
 	for elemType in requiredDic:
-		if len(unused[elemType]) <= requiredDic[elemType]:
+		if len(unused[e]) <= requiredDic[e]:
 			hasAll = False
 			break
 	
 	if(hasAll): 
-		# print "WE GOT IT"
+		print "WE GOT IT"
 		for elem in elems:
-			randomNetworkName = random.sample(unused[elem], 1)[0]
-			# print randomNetworkName
-			correspodingWord = unused[elem].pop(randomNetworkName)
-			# print correspodingWord
-			resultElem = list()
-			resultElem.append(randomNetworkName)
-			resultElem.append(correspodingWord)
-			outputList.append(resultElem)
-		return outputList
+			for c in unused[elem]:
+
+
+	# 	for c in unused["people"]:
+	# 		peo1net = c
+	# 		break
+	# 	peo1word = unused["people"].pop(peo1net)
 	else:
 		return outputList #test empty returns true
 
-def printNewPoem(parts, _pattern):
-	print "-"*30
-	print "\n\nNew Air Poem:\n\n\n"
-	for i in range(2): #for networknames and words
-		count = 0
-		for line in range(len(_pattern)): #for each line
-			for word in range(_pattern[line]):
-				print parts[count][i],
-				count += 1
-			print ""
-		print ""		
-	print "-"*30
+
+	# if len(unused["people"]) > 1 and len(unused["verb"]) > 0 :
+
+	# print requiredDic
+
 
 def constructSentence():
 	# people verb people
@@ -204,12 +195,7 @@ def constructSentence():
 	# adjective noun
 	# -
 	# adjective noun
-	sentenceParts = returnElements("people noun noun")
-	if (len(sentenceParts)):
-		# print "got it"
-		# print sentenceParts
-		pattern = [1,2] #describe words per line
-		printNewPoem(sentenceParts, pattern)
+	returnElements("people people people people")
 
 	# # people verb people
 	# if len(unused["people"]) > 1 and len(unused["verb"]) > 0 :

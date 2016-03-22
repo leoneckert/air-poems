@@ -6145,7 +6145,6 @@ luna
 chandler
 daniel
 blair
-cross
 simon
 dennis
 oconnor
