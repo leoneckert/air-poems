@@ -141,8 +141,28 @@ def returnElements(elementListSpaceDivided):
 # eg. "[1,2,1]" means the poem will have 3 line with 1 element on the first line etc.
 # the whole thing will be printed twice, one time with network names, another time with correspinaing words
 def printNewPoem(parts, _pattern):
+	#sort out indexing:
+	indexForPoem = -1
+	indexLog = open("index_count.log", "r")
+	indexLog_line =  indexLog.read()
+	indexLog.close()
+	indexLog_elems = indexLog_line.split(" ")
+	currentDateForIndexing = time.strftime("%x")[6:] + time.strftime("%x")[:2] + time.strftime("%x")[3:-3]
+	indexLog = open("index_count.log", "w")
+	if indexLog_elems[0] == currentDateForIndexing:
+		indexForPoem = int(indexLog_elems[1]) + 1
+		indexLog.write(currentDateForIndexing + " " + str(indexForPoem))
+		indexLog.close()
+	else:
+		indexForPoem = 1
+		indexLog.write(currentDateForIndexing + " " + str(indexForPoem))
+		indexLog.close()
+
 	print "-"*30
-	print "\n\n\n\tNew Air Poem:\n\n\n"
+	print "\n\n\n\tNew Air Poem - " + str(currentDateForIndexing) + str(indexForPoem) + "\n\n\n"
+	# print "\n\n\n\tNew Air Poem:\n\n"
+	# print "\t#" + str(currentDateForIndexing) + "-" + str(indexForPoem) + "\n\n\n" 
+
 	for i in range(2): #for networknames and words
 		count = 0
 		for line in range(len(_pattern)): #for each line
@@ -302,12 +322,12 @@ def sniffloop():
     alreadyInspected = set()
     current_channel = channel_range[-1]
     #next line makes all the difference, making sure the hoping works by disassociating fro any network before start:
-    # subprocess.call("airport -z", shell=True)		# DEactivate for TESTING
+    subprocess.call("airport -z", shell=True)		# DEactivate for TESTING
 
-    # for line in run("./bps_v1"):		# DEactivate for TESTING
-    for line in open("tisch_working_copy.log", "r"):  # activate for TESTING
+    for line in run("./bps_v1"):		# DEactivate for TESTING
+    # for line in open("tisch_working_copy.log", "r"):  # activate for TESTING
 		#next line for channel hoping:
-		# count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
+		count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
 		line = line.strip()
 
 		words = line.split(',')

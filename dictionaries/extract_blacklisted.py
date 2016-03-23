@@ -6,7 +6,7 @@ write = True
 
 count = 0
 for d in inputdicts:
-	if(write): writer = open(d + ".txt", 'w')
+	if(write): writer = open("after_blacklist_cp/" + d + ".txt", 'w')
 	for word in open("pre_blacklist/" + d + ".txt", "r"):
 		word = word.strip()
 		black = False

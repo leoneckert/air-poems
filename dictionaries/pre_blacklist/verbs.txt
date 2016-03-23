@@ -12652,8 +12652,6 @@ guessed
 guesses
 guesstimate
 guesstimates
-guest
-guests
 guffaw
 guffaws
 guggle
@@ -13330,11 +13328,6 @@ holystones
 holystoning
 homage
 homages
-home
-homed
-homer
-homers
-homes
 homestead
 homesteads
 homogenize
@@ -25465,7 +25458,6 @@ skulk
 skulks
 skunk
 skunks
-sky
 skydive
 skydives
 skyjack
