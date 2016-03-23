@@ -71,7 +71,7 @@ def check_for_words_in_network_name(_network_name):
 
 	# count = 0
 	for d in dictionaries:
-		dictionairy = open(d + ".txt", 'r')
+		dictionairy = open("dictionaries/" + d + ".txt", 'r')
 		for elem in dictionairy:
 			elem = elem.strip()
 			matchingWord = check_if_part_of_word1_equals_word2(networkname,elem,len(longestmatch[0]))
