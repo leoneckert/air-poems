@@ -1616,6 +1616,7 @@ balance
 balanced
 balances
 balancing
+bald
 bale
 baled
 bales
@@ -3080,6 +3081,7 @@ buckramed
 buckraming
 buckrams
 bucks
+bud
 budded
 budding
 buddings
@@ -10767,6 +10769,7 @@ fever
 fevers
 fianchetto
 fianchettoes
+fib
 fibbed
 fibbing
 fibs

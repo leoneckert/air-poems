@@ -4170,6 +4170,7 @@ arctogaea
 arcturus
 arcuation
 arcuations
+arcus
 arcuses
 ardeb
 ardebs
@@ -4442,6 +4443,7 @@ arrests
 arrhenius
 arrhenotoky
 arrhythmia
+arris
 arrises
 arrival
 arrivals
@@ -6296,6 +6298,7 @@ bangles
 bangor
 bangs
 bangui
+bani
 bania
 banian
 banians
@@ -7434,6 +7437,7 @@ bendings
 bendlet
 bendlets
 bends
+bene
 benedicite
 benedicites
 benedick
@@ -10504,6 +10508,7 @@ buckwheats
 bucolic
 bucolics
 bucuresti
+bud
 budapest
 buddenbrooks
 buddha
@@ -14915,6 +14920,7 @@ chyme
 chymotrypsin
 chypre
 chypres
+ciao
 ciaos
 cibber
 ciborium
@@ -15118,6 +15124,7 @@ cirripede
 cirripedes
 cirripeds
 cirrus
+cisco
 ciscoes
 ciscos
 ciseleur
@@ -18628,6 +18635,7 @@ corymbs
 coryphaeus
 coryza
 coryzas
+cos
 coscoroba
 cose
 cosec
@@ -24386,6 +24394,7 @@ dodoma
 dodonian
 dodos
 dods
+doe
 doek
 doeks
 doer
@@ -27814,6 +27823,7 @@ equilibriums
 equine
 equinity
 equinoctial
+equinox
 equinoxes
 equipage
 equipages
@@ -30339,6 +30349,7 @@ fiascoes
 fiascos
 fiat
 fiats
+fib
 fibber
 fibbers
 fibbing
@@ -41230,6 +41241,7 @@ imputation
 imputations
 imputer
 imputers
+in
 in-and-out
 in-between
 in-law
@@ -43361,6 +43373,7 @@ irruption
 irruptions
 irvine
 irving
+is
 isa
 isaac
 isabella
@@ -43594,6 +43607,7 @@ ivan
 ivanhoe
 ives
 ivies
+ivo
 ivor
 ivories
 ivory
@@ -45871,6 +45885,7 @@ kyte
 kytes
 kyu
 kyus
+l
 l'allegro
 l-dopa
 la-di-da
@@ -47368,6 +47383,7 @@ liang
 liangs
 lianne
 liar
+liard
 liards
 liars
 lias
@@ -48075,6 +48091,7 @@ liturgists
 liturgy
 lituus
 lituuses
+liv
 livability
 live-forever
 liveability
@@ -51882,6 +51899,7 @@ mezzotint
 mezzotints
 mho
 mhos
+mi
 mia
 miami
 miamis
@@ -54623,6 +54641,7 @@ mzee
 mzees
 mzungu
 mzungus
+n
 na-dene
 nabataean
 nabber
@@ -56237,6 +56256,7 @@ noyaus
 nozzle
 nozzles
 ns
+nt
 nuance
 nuances
 nub
@@ -56474,6 +56494,7 @@ nyssa
 nystagmus
 nystatin
 nyx
+o
 o'brien
 o'casey
 o'connell
@@ -56542,6 +56563,7 @@ obeyer
 obeyers
 obfuscation
 obfuscations
+obi
 obiism
 obis
 obit
@@ -57213,6 +57235,7 @@ omphalocele
 omphalos
 omphaloses
 omsk
+on
 onager
 onagers
 onanism
@@ -57861,6 +57884,7 @@ oryx
 oryxes
 oryza
 orzo
+os
 osage
 osages
 osaka
@@ -60301,6 +60325,7 @@ pedestals
 pedestrian
 pedestrianism
 pedestrians
+pedi
 pediatrician
 pediatricians
 pediatrics
@@ -60547,6 +60572,7 @@ penlight
 penlights
 penman
 penmanship
+penn
 penn'orth
 penn'orths
 penna
@@ -61923,6 +61949,7 @@ phytotoxin
 phytotoxins
 phytotron
 phytotrons
+pi
 pia
 piacenza
 piaf

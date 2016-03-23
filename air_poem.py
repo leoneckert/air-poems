@@ -55,10 +55,10 @@ def check_if_part_of_word1_equals_word2(word1, word2, min_length):
                                                          
 
 #------------------------------------------------------------
-# all dictionairies need to be named in plural (ending on "s", e.g. "peoples.txt").
+# all dictionairies need to be named in plural (ending on "s", e.g. "peoples").
 # the order in the next list matters: it will always take the longest corresponding word,
 # however, if two are the same length, the one from the earlier dictionairy will be taken
-dictionaries = [ "peoples", "nouns", "places"]
+dictionaries = [ "verbs", "adjectives", "obscenes", "adverbs", "places", "peoples", "nouns"]
 
 
 
@@ -173,15 +173,95 @@ def printNewPoem(parts, _pattern):
 # |___/\___|_| |_|\__\___|_| |_|\___\___||___/
 
 def constructSentence():
-	sentenceParts = returnElements("place people noun")
-	if (len(sentenceParts)):
-		pattern = [1,2] #describe words per line
-		printNewPoem(sentenceParts, pattern)
+	combos = [["people", "people"], ["people", "noun"], ["noun", "people"], ["noun", "noun"]]
+	for i in range(4):
+		sentenceParts10 = returnElements("place adjective " + combos[i][0] + " verb " + combos[i][1] + " adverb obscene")
+		if (len(sentenceParts10)):
+			pattern = [1,5,1] #describe words per line
+			printNewPoem(sentenceParts10, pattern)
 
-	sentenceParts2 = returnElements("place")
-	if (len(sentenceParts2)):
-		pattern = [1] #describe words per line
-		printNewPoem(sentenceParts2, pattern)
+		sentenceParts110 = returnElements("place " + combos[i][0] + " verb " + combos[i][1] + " adverb obscene")
+		if (len(sentenceParts110)):
+			pattern = [1,4,1] #describe words per line
+			printNewPoem(sentenceParts110, pattern)
+
+		sentenceParts120 = returnElements("place adjective " + combos[i][0] + " verb " + combos[i][1] + " obscene")
+		if (len(sentenceParts120)):
+			pattern = [1,4,1] #describe words per line
+			printNewPoem(sentenceParts120, pattern)
+
+		sentenceParts130 = returnElements("place " + combos[i][0] + " verb " + combos[i][1] + " obscene")
+		if (len(sentenceParts130)):
+			pattern = [1,3,1] #describe words per line
+			printNewPoem(sentenceParts130, pattern)
+
+
+		sentenceParts11 = returnElements("adjective " + combos[i][0] + " verb " + combos[i][1] + " adverb obscene")
+		if (len(sentenceParts11)):
+			pattern = [5,1] #describe words per line
+			printNewPoem(sentenceParts11, pattern)
+
+		sentenceParts111 = returnElements(combos[i][0] + " verb " + combos[i][1] + " adverb obscene")
+		if (len(sentenceParts111)):
+			pattern = [4,1] #describe words per line
+			printNewPoem(sentenceParts111, pattern)
+
+		sentenceParts121 = returnElements("adjective " + combos[i][0] + " verb " + combos[i][1] + " obscene")
+		if (len(sentenceParts121)):
+			pattern = [4,1] #describe words per line
+			printNewPoem(sentenceParts121, pattern)
+
+		sentenceParts131 = returnElements(combos[i][0] + " verb " + combos[i][1] + " obscene")
+		if (len(sentenceParts131)):
+			pattern = [3,1] #describe words per line
+			printNewPoem(sentenceParts131, pattern)
+
+
+
+
+		sentenceParts12 = returnElements("place adjective " + combos[i][0] + " verb " + combos[i][1] + " adverb")
+		if (len(sentenceParts12)):
+			pattern = [1,5] #describe words per line
+			printNewPoem(sentenceParts12, pattern)
+
+		sentenceParts112 = returnElements("place " + combos[i][0] + " verb " + combos[i][1] + " adverb")
+		if (len(sentenceParts112)):
+			pattern = [1,4] #describe words per line
+			printNewPoem(sentenceParts112, pattern)
+
+		sentenceParts122 = returnElements("place adjective " + combos[i][0] + " verb " + combos[i][1])
+		if (len(sentenceParts122)):
+			pattern = [1,4] #describe words per line
+			printNewPoem(sentenceParts122, pattern)
+
+		sentenceParts132 = returnElements("place " + combos[i][0] + " verb " + combos[i][1])
+		if (len(sentenceParts132)):
+			pattern = [1,3] #describe words per line
+			printNewPoem(sentenceParts132, pattern)
+
+
+
+		sentenceParts13 = returnElements("adjective " + combos[i][0] + " verb " + combos[i][1] + " adverb")
+		if (len(sentenceParts13)):
+			pattern = [5] #describe words per line
+			printNewPoem(sentenceParts13, pattern)
+
+		sentenceParts113 = returnElements(combos[i][0] + " verb " + combos[i][1] + " adverb")
+		if (len(sentenceParts113)):
+			pattern = [4] #describe words per line
+			printNewPoem(sentenceParts113, pattern)
+
+		sentenceParts123 = returnElements("adjective " + combos[i][0] + " verb " + combos[i][1])
+		if (len(sentenceParts123)):
+			pattern = [4] #describe words per line
+			printNewPoem(sentenceParts123, pattern)
+
+		sentenceParts133 = returnElements(combos[i][0] + " verb " + combos[i][1])
+		if (len(sentenceParts133)):
+			pattern = [3] #describe words per line
+			printNewPoem(sentenceParts133, pattern)
+
+
 
 
 #            _  __  __      _                   

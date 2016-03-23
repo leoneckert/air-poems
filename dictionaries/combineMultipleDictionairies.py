@@ -1,6 +1,6 @@
 # put all the names of dictionairies to combine in this list:
 # e.g. '["verbs1", "verbs2"]'
-inputdicts = ["countries_corpora_formatted", "places1", "rooms_corpora_formatted", "setting_corpora_formatted", "us_cities_states_formatted", "venues_corpora_formatted"]
+inputdicts = ["peoples"]
 
 
 
