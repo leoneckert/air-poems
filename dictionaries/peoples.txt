@@ -736,7 +736,6 @@ abbie
 abbott
 abby
 abdul
-abe
 abel
 abigail
 abraham
@@ -2067,7 +2066,6 @@ deann
 deanna
 deanne
 death
-deb
 debbi
 debbie
 debbra
@@ -3196,7 +3194,6 @@ hiram
 hiroko
 hisako
 hitler
-ho
 hoa
 hobbs
 hobert
@@ -4330,7 +4327,6 @@ loise
 lola
 lolita
 loma
-lon
 lona
 londa
 long
@@ -4541,7 +4537,6 @@ malvina
 mamie
 mammie
 man
-mana
 manda
 mandi
 mandie
@@ -5069,7 +5064,6 @@ nakesha
 nakia
 nakisha
 nakita
-nan
 nana
 nancee
 nancey
@@ -6570,7 +6564,6 @@ tyson
 ula
 ulrike
 ulysses
-un
 una
 undertaker
 underwood

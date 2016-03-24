@@ -157,27 +157,42 @@ def printNewPoem(parts, _pattern):
 		indexForPoem = 1
 		indexLog.write(currentDateForIndexing + " " + str(indexForPoem))
 		indexLog.close()
-
+	
+	if(sys.argv[1] > 0):
+		outPutLog_filename = sys.argv[1]
+	else:
+		outPutLog_filename = "poems_gen_output"
+	outPutLog = open(outPutLog_filename + ".log", "a")
 	print "-"*30
+	outPutLog.write("-"*30 + "\n")
 	print "\n\n\n\tNew Air Poem - " + str(currentDateForIndexing) + str(indexForPoem) + "\n\n\n"
-	# print "\n\n\n\tNew Air Poem:\n\n"
-	# print "\t#" + str(currentDateForIndexing) + "-" + str(indexForPoem) + "\n\n\n" 
+	outPutLog.write("\n\n\n\tNew Air Poem - " + str(currentDateForIndexing) + str(indexForPoem) + "\n\n\n" + "\n")
+
 
 	for i in range(2): #for networknames and words
 		count = 0
 		for line in range(len(_pattern)): #for each line
 			print "\t",
+			outPutLog.write("\t")
 			for word in range(_pattern[line]):
 				print parts[count][i],
+				outPutLog.write(parts[count][i] + " ")
 				count += 1
 			print ""
+			outPutLog.write("\n")
 		print ""
+		outPutLog.write("\n")
 	print "\n\n"
+	outPutLog.write("\n\n")
 	print "\t\textracted from air,"
+	outPutLog.write("\t\textracted from air," + "\n")
 	print "\t\t" + time.strftime("%A") + ", " + time.strftime("%B") + " " + time.strftime("%d") + " " + time.strftime("%Y") + ", " + time.strftime("%X")
-	print "\n\n"			
+	outPutLog.write("\t\t" + time.strftime("%A") + ", " + time.strftime("%B") + " " + time.strftime("%d") + " " + time.strftime("%Y") + ", " + time.strftime("%X"))
+	print "\n\n"
+	outPutLog.write("\n\n\n\n")			
 	print "-"*30
-
+	outPutLog.write("-"*30 + "\n")
+	outPutLog.close()
 
 #                      _                   _   
 #                     | |                 | |  
@@ -322,12 +337,12 @@ def sniffloop():
     alreadyInspected = set()
     current_channel = channel_range[-1]
     #next line makes all the difference, making sure the hoping works by disassociating fro any network before start:
-    subprocess.call("airport -z", shell=True)		# DEactivate for TESTING
+    # subprocess.call("airport -z", shell=True)		# DEactivate for TESTING
 
-    for line in run("./bps_v1"):		# DEactivate for TESTING
-    # for line in open("tisch_working_copy.log", "r"):  # activate for TESTING
+    # for line in run("./bps_v1"):		# DEactivate for TESTING
+    for line in open("no_realtime_experiment_log.log", "r"):  # activate for TESTING
 		#next line for channel hoping:
-		count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
+		# count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
 		line = line.strip()
 
 		words = line.split(',')
