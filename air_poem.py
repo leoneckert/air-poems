@@ -162,7 +162,7 @@ def printNewPoem(parts, _pattern):
 		outPutLog_filename = sys.argv[1]
 	else:
 		outPutLog_filename = "poems_gen_output"
-	outPutLog = open(outPutLog_filename + ".log", "a")
+	outPutLog = open("logged_poems/" + outPutLog_filename + ".log", "a")
 	print "-"*30
 	outPutLog.write("-"*30 + "\n")
 	print "\n\n\n\tNew Air Poem - " + str(currentDateForIndexing) + str(indexForPoem) + "\n\n\n"
