@@ -10115,7 +10115,6 @@ guelfic
 guerilla
 guerrilla
 guessable
-guest
 guidable
 guided
 guideless

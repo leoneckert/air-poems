@@ -5969,7 +5969,6 @@ deprived
 depurative
 deputy
 deranged
-dere
 derelict
 derisible
 derisive
@@ -10113,7 +10112,6 @@ guelfic
 guerilla
 guerrilla
 guessable
-guest
 guidable
 guided
 guideless
@@ -12905,7 +12903,6 @@ kidnapped
 kidney-shaped
 killing
 kilted
-kin
 kinaesthetic
 kind
 kind-hearted
@@ -14576,7 +14573,6 @@ mirrored
 mirthful
 mirthless
 miry
-mis
 misanthropic
 misanthropical
 misapplied
@@ -20271,7 +20267,6 @@ sebaceous
 sebacic
 sebiferous
 seborrheic
-sec
 secernent
 secessional
 secessionist

@@ -919,7 +919,6 @@ garden grove
 gardengrove
 gardena
 garland
-gary
 gas station / garage
 gasstation/garage
 gastonia
@@ -2309,7 +2308,6 @@ taverna
 taxi
 taxi stand
 taxistand
-taylor
 taylorsville
 tea room
 tearoom
@@ -3000,7 +2998,6 @@ parlor
 pattaya
 pensacola
 peru
-petra
 philadelphia
 philippines
 phnom penh

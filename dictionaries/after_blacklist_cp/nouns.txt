@@ -1764,7 +1764,6 @@ alaskan
 alaskans
 alastair
 alastrim
-alb
 albacore
 albacores
 alban
@@ -2222,7 +2221,6 @@ aloes
 aloeswood
 aloeswoods
 alogia
-aloha
 alohas
 aloneness
 alonso
@@ -4285,7 +4283,6 @@ aristophanes
 aristotelian
 aristotelianism
 aristotle
-arita
 arithmetic
 arithmetician
 arithmeticians
@@ -5672,7 +5669,6 @@ baalbek
 baalism
 baalite
 baas
-bab
 baba
 babar
 babas
@@ -5739,7 +5735,6 @@ babylonian
 babylonians
 bacardi
 bacardis
-bacca
 baccalaureate
 baccalaureates
 baccarat
@@ -6569,7 +6564,6 @@ barquentine
 barquentines
 barques
 barquisimeto
-barra
 barrack
 barracker
 barrackers
@@ -7296,7 +7290,6 @@ being
 beingness
 beings
 beirut
-bel
 belah
 belahs
 belatedness
@@ -9464,7 +9457,6 @@ bourbonist
 bourbons
 bourdon
 bourdons
-bourg
 bourgeois
 bourgeoise
 bourgeoisie
@@ -9876,7 +9868,6 @@ breathalyser
 breathalysers
 breathalyzer
 breathalyzers
-breather
 breathers
 breathes
 breathiness
@@ -14231,7 +14222,6 @@ chewinks
 chews
 cheyenne
 cheyennes
-chi
 chian
 chiao
 chiaroscuro
@@ -16944,7 +16934,6 @@ compromiser
 compromises
 comps
 compsognathus
-compt
 comptometer
 compton
 compton-burnett
@@ -18258,7 +18247,6 @@ coquina
 coquinas
 coquito
 coquitos
-cor
 cora
 coracle
 coracles
@@ -18711,7 +18699,6 @@ costumes
 costumier
 costumiers
 cosy
-cot
 cotangent
 cotangents
 cote
@@ -21866,7 +21853,6 @@ delivery
 dell
 della
 dells
-delos
 delphi
 delphian
 delphinium
@@ -26182,7 +26168,6 @@ eggs
 eggshell
 eggshells
 egham
-egis
 egises
 eglantine
 eglantines
@@ -26527,7 +26512,6 @@ eliza
 elizabeth
 elizabethan
 elizabethans
-elk
 elkhound
 elkhounds
 elks
@@ -26549,7 +26533,6 @@ ellis
 ells
 elm
 elma
-elmo
 elms
 elmwood
 elo
@@ -26572,7 +26555,6 @@ elongation
 elongations
 elopement
 elopements
-eloper
 elopers
 elops
 eloquence
@@ -28064,7 +28046,6 @@ eskimo
 eskimos
 esky
 esmeralda
-esne
 esnecy
 esnes
 esophagus
@@ -31441,7 +31422,6 @@ foals
 foam
 foaminess
 foams
-fob
 fobs
 focalisation
 focalization
@@ -31673,7 +31653,6 @@ foray
 forayer
 forayers
 forays
-forb
 forbear
 forbearance
 forbears
@@ -33883,7 +33862,6 @@ genova
 genovese
 genre
 genres
-gens
 gent
 genteelism
 genteelisms
@@ -35322,7 +35300,6 @@ grams
 granada
 granadilla
 granadillas
-granados
 granaries
 granary
 grand
@@ -36296,7 +36273,6 @@ gunwales
 gunyah
 guppies
 guppy
-gupta
 gur
 gurdwara
 gurdwaras
@@ -36336,7 +36312,6 @@ gustavus
 gustiness
 gusto
 gusts
-gut
 gutbucket
 gutenberg
 guthrie
@@ -37890,7 +37865,6 @@ heitiki
 heitikis
 hejaz
 hejira
-hel
 held
 heldentenor
 heldentenors
@@ -38076,7 +38050,6 @@ hemstitcher
 hemstitchers
 hemstitches
 hemstitching
-hen
 hen-and-chickens
 henbane
 henbanes
@@ -38715,7 +38688,6 @@ hips
 hipster
 hipsters
 hiragana
-hiram
 hire
 hire-purchase
 hireling
@@ -40890,7 +40862,6 @@ immurement
 immutability
 immutableness
 imogen
-imp
 impact
 impaction
 impactions
@@ -43560,7 +43531,6 @@ itinerant
 itinerants
 itineraries
 itinerary
-its
 ivan
 ivanhoe
 ives
@@ -44699,7 +44669,6 @@ kampongs
 kampuchea
 kamseen
 kamseens
-kana
 kananga
 kanarese
 kandahar
@@ -44834,7 +44803,6 @@ kauffmann
 kaufman
 kauri
 kauris
-kava
 kavas
 kawasaki
 kayak
@@ -45250,7 +45218,6 @@ kimberlite
 kimchi
 kimono
 kimonos
-kin
 kina
 kinabalu
 kinaesthesia
@@ -45916,7 +45883,6 @@ lacertilian
 laces
 laches
 lachesis
-lachlan
 lachrymation
 lachrymations
 lachrymator
@@ -47228,7 +47194,6 @@ lettuce
 lettuces
 letty
 letup
-leu
 leucadendron
 leucine
 leucite
@@ -47754,7 +47719,6 @@ lines
 linesman
 linette
 lineup
-ling
 linga
 lingam
 lingams
@@ -48382,8 +48346,6 @@ lome
 loment
 loments
 lomentum
-lomond
-london
 londonderry
 londoner
 londoners
@@ -48731,7 +48693,6 @@ lucarne
 lucarnes
 lucas
 lucca
-luce
 lucency
 lucent
 lucerne
@@ -49741,7 +49702,6 @@ malvern
 malversation
 malvoisie
 malvoisies
-mam
 mama
 mamas
 mamba
@@ -49912,7 +49872,6 @@ manganites
 mange
 mangel-wurzel
 mangel-wurzels
-manger
 mangers
 manginess
 mangle
@@ -50470,7 +50429,6 @@ maryland
 marzipan
 marzipans
 mas
-masa
 masaccio
 masai
 mascagni
@@ -52523,7 +52481,6 @@ mirs
 mirth
 mirthfulness
 mirthlessness
-mis
 misadventure
 misadventures
 misaim
@@ -52859,7 +52816,6 @@ mnemes
 mnemonic
 mnemonics
 mnemosyne
-mo
 moab
 moan
 moaner
@@ -53027,7 +52983,6 @@ moits
 mojave
 moke
 mokes
-mol
 mola
 molalities
 molality
@@ -54167,7 +54122,6 @@ mummifications
 mummy
 mumps
 mums
-mun
 munch
 muncher
 munchers
@@ -54670,7 +54624,6 @@ namibia
 naming
 namings
 namur
-nana
 nanas
 nance
 nanchang
@@ -55315,7 +55268,6 @@ nettle
 nettles
 netts
 netty
-network
 networking
 networks
 neuk
@@ -56182,7 +56134,6 @@ nowness
 nows
 nowt
 nowy
-nox
 noxiousness
 noyade
 noyades
@@ -57426,7 +57377,6 @@ opprobrium
 oppugn
 oppugner
 oppugners
-ops
 opsimath
 opsimaths
 opsonin
@@ -58617,7 +58567,6 @@ padlock
 padlocks
 padouk
 padouks
-padova
 padre
 padres
 padrone
@@ -59186,7 +59135,6 @@ papyrology
 papyrus
 papyruses
 par
-para
 parabasis
 parabiosis
 parable
@@ -61902,7 +61850,6 @@ piazzas
 pibroch
 pibrochs
 pic
-pica
 picador
 picadors
 picard
@@ -63382,7 +63329,6 @@ poltergeists
 poltroon
 poltroonery
 poltroons
-poly
 polyacid
 polyamide
 polyamides
@@ -65105,7 +65051,6 @@ procurers
 procuress
 procuresses
 procyon
-prod
 prodder
 prodders
 prodding
@@ -67078,7 +67023,6 @@ quizes
 quizzer
 quizzers
 quizzicality
-qum
 qumran
 quod
 quodlibet
@@ -67210,7 +67154,6 @@ racoons
 racquet
 racquetball
 racquets
-rad
 radar
 radars
 radarscope
@@ -71483,7 +71426,6 @@ salchow
 salchows
 sale
 saleability
-saleem
 salem
 salep
 saleps
@@ -73100,7 +73042,6 @@ sebastopol
 seborrhea
 seborrhoea
 sebum
-sec
 secant
 secants
 secco
@@ -79936,7 +79877,6 @@ suasiveness
 suave
 suaveness
 suavity
-sub
 subabbot
 subacetate
 subacidity
@@ -82073,7 +82013,6 @@ taints
 taipan
 taipans
 taipei
-taira
 tairas
 tais
 taiwan
@@ -82944,7 +82883,6 @@ tellers
 tellership
 tellerships
 tellies
-tellin
 telling
 tellings
 tellins
@@ -83467,7 +83405,6 @@ textuaries
 textuary
 texture
 textures
-th
 thack
 thackeray
 thacks
@@ -84263,7 +84200,6 @@ tigress
 tigresses
 tigris
 tijuana
-tike
 tikes
 tiki
 tikis
@@ -84429,7 +84365,6 @@ tip
 tip-off
 tip-offs
 tip-up
-tipi
 tipis
 tipper
 tipperary
@@ -90718,7 +90653,6 @@ welwitschia
 welwitschias
 wembley
 wemyss
-wen
 wench
 wencher
 wenchers
@@ -91377,7 +91311,6 @@ winnow
 winnowing
 winnowings
 winnows
-wino
 winona
 winos
 wins
@@ -92508,7 +92441,6 @@ zeus
 zeuxis
 zho
 zhos
-zia
 zibeline
 zibelines
 zibet

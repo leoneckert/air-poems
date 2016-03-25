@@ -2178,7 +2178,6 @@ besprinkle
 besprinkled
 besprinkles
 besprinkling
-best
 bestead
 besteaded
 besteading
@@ -2598,7 +2597,6 @@ boasted
 boasts
 boat
 boats
-bob
 bobbed
 bobbing
 bobble
@@ -3092,7 +3090,6 @@ buddling
 budge
 budged
 budges
-budget
 budgeted
 budgeting
 budgets
@@ -3323,9 +3320,6 @@ caballing
 cabals
 cabbage
 cabbages
-cabin
-cabins
-cable
 cabled
 cables
 cabling
@@ -4210,7 +4204,6 @@ christianizes
 christianizing
 chromatograph
 chromatographs
-chrome
 chromes
 chronicle
 chronicled
@@ -4932,7 +4925,6 @@ compartmentalized
 compartmentalizes
 compartmentalizing
 comparts
-compass
 compasses
 compassionate
 compel
@@ -5832,9 +5824,6 @@ creosote
 creosoted
 creosotes
 creosoting
-crepe
-creped
-crepes
 creping
 crepitate
 crepitated
@@ -10787,8 +10776,6 @@ fidges
 fidget
 fidgets
 fidging
-field
-fields
 fife
 fifed
 fifes
@@ -15703,7 +15690,6 @@ laid
 laik
 laiks
 lain
-lair
 lairs
 laith
 lallygag
@@ -16454,7 +16440,6 @@ maculate
 maculated
 maculates
 maculating
-mad
 madden
 maddens
 madder
@@ -16521,7 +16506,6 @@ mambos
 mammer
 mammock
 mammocks
-man
 manacle
 manacles
 manage
@@ -18314,10 +18298,6 @@ oils
 oink
 oinks
 ok'd
-okay
-okays
-omen
-omens
 omit
 omits
 omitted
@@ -19374,8 +19354,6 @@ pagings
 paid
 paik
 paiks
-pain
-pains
 paint
 painted
 paints
@@ -19538,7 +19516,6 @@ pargeted
 pargets
 pargetting
 pargettings
-park
 parked
 parks
 parlay
@@ -24408,7 +24385,6 @@ schmooze
 schmoozed
 schmoozes
 schmoozing
-school
 schoolmaster
 schoolmasters
 schools
@@ -26399,7 +26375,6 @@ squall
 squalls
 squander
 squanders
-square
 square-dance
 square-dances
 squares
@@ -27955,11 +27930,9 @@ teazel
 teazels
 teazle
 teazles
-ted
 tedded
 tedding
 teds
-tee
 teed
 teeing
 teem
@@ -30606,8 +30579,6 @@ weathercocks
 weathers
 weave
 weaves
-web
-webs
 wed
 wedge
 wedged
@@ -30900,8 +30871,6 @@ wiped
 wipes
 wire
 wiredrawn
-wireless
-wirelesses
 wires
 wiretap
 wiretaps
@@ -30955,7 +30924,6 @@ wobbled
 wobbles
 woke
 woken
-wolf
 wolf-whistle
 wolf-whistles
 wolfs

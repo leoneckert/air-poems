@@ -1710,7 +1710,6 @@ cheryll
 chester
 chet
 cheyenne
-chi
 chia
 chieko
 child
@@ -2493,7 +2492,6 @@ ellyn
 elma
 elmer
 elmira
-elmo
 elna
 elnora
 elodia
@@ -2520,7 +2518,6 @@ elwanda
 elwood
 elyse
 elza
-ema
 emanuel
 emelda
 emelia
@@ -2550,7 +2547,6 @@ emmy
 emogene
 emory
 ena
-enda
 enedina
 eneida
 england
@@ -3171,7 +3167,6 @@ hettie
 hickman
 hicks
 hiedi
-hien
 higgins
 hilaria
 hilario
@@ -3190,7 +3185,6 @@ hinton
 hipolito
 hippo
 hippogriff
-hiram
 hiroko
 hisako
 hitler
@@ -3289,7 +3283,6 @@ ileana
 ileen
 ilene
 iliana
-illa
 ilona
 ilse
 iluminada
@@ -3297,7 +3290,6 @@ ima
 iman
 imelda
 imogene
-imp
 ina
 incubus
 india
@@ -4047,7 +4039,6 @@ lamont
 lana
 lance
 landon
-landry
 lane
 lanell
 lanelle
@@ -4287,7 +4278,6 @@ lindsey
 lindsy
 lindy
 linette
-ling
 linh
 linn
 linnaeus
@@ -4330,7 +4320,6 @@ loma
 lona
 londa
 long
-loni
 lonna
 lonnie
 lonny
@@ -5064,7 +5053,6 @@ nakesha
 nakia
 nakisha
 nakita
-nana
 nancee
 nancey
 nanci
@@ -5477,7 +5465,6 @@ raelene
 rafael
 rafaela
 raguel
-raina
 raisa
 raleigh
 ralph
@@ -6079,7 +6066,6 @@ shonna
 shonta
 short
 shoshana
-shu
 shyla
 sibyl
 sid
@@ -6143,7 +6129,6 @@ sophia
 sophie
 soraya
 sosa
-soto
 sparkle
 sparks
 spears
@@ -6210,7 +6195,6 @@ strickland
 strong
 stuart
 styles
-su
 suanne
 suarez
 succubus
@@ -6265,7 +6249,6 @@ sylvia
 sylvie
 synthia
 syreeta
-ta
 tabatha
 tabetha
 tabitha
@@ -6548,7 +6531,6 @@ twanda
 twanna
 twila
 twyla
-ty
 tyesha
 tyga
 tyisha
@@ -6757,7 +6739,6 @@ weiss
 welch
 weldon
 wells
-wen
 wendell
 wendi
 wendie
@@ -6862,7 +6843,6 @@ yanira
 yasmin
 yasmine
 yasuko
-yates
 yee
 yelena
 yen
@@ -6911,7 +6891,6 @@ zaida
 zamora
 zana
 zandra
-zane
 zavala
 zelda
 zella
@@ -6922,7 +6901,6 @@ zendaya
 zenia
 zenobia
 zetta
-zhang
 zimmerman
 zina
 zita

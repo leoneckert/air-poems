@@ -48433,8 +48433,6 @@ lome
 loment
 loments
 lomentum
-lomond
-london
 londonderry
 londoner
 londoners
@@ -55377,7 +55375,6 @@ nettle
 nettles
 netts
 netty
-network
 networking
 networks
 neuk
@@ -67288,7 +67285,6 @@ racoons
 racquet
 racquetball
 racquets
-rad
 radar
 radars
 radarscope
@@ -83032,7 +83028,6 @@ tellers
 tellership
 tellerships
 tellies
-tellin
 telling
 tellings
 tellins
