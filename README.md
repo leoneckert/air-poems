@@ -35,6 +35,119 @@ Not only is that a very private and sensitive kind of information about their us
 		extracted from air,
 		Thursday, March 24 2016, 18:32:42
 ```
+```
+	New Air Poem - 160324155
+
+
+
+	HOTELVERNET 
+	.CIPRIANI WiFi Linksys00546 USHG-wap 
+
+	hotel 
+	ian links us 
+
+
+
+		extracted from air,
+		Thursday, March 24 2016, 18:44:07
+```
+```
+	New Air Poem - 160324160
+
+
+
+	NYPL 
+	Oreo-guest MountSinaiGuest Samsung Galaxy S 4 3390 
+
+	ny 
+	guest mounts galaxy 
+
+
+
+		extracted from air,
+		Thursday, March 24 2016, 18:45:13
+```
+```
+	New Air Poem - 160324168
+
+
+
+	WCMCGuest ashestoashes samsung galaxy II_3125 
+
+	guest ashes galaxy 
+
+
+
+		extracted from air,
+		Thursday, March 24 2016, 18:46:55
+```
+```
+	New Air Poem - 160323203
+
+
+
+	FRBNY 
+	Resort-Cosmopolitan LucyAndTeddy BROADCAST RubyTiger 
+
+	ny 
+	cosmopolitan teddy broadcast tiger 
+
+
+
+
+		extracted from air,
+		Wednesday, March 23 2016, 19:16:59
+```
+```
+	New Air Poem - 160323221
+
+
+
+	Brookfield Place 
+	GA-Guest UCS Public Internet LookMomNoWires chaos2 Ifonlywifiwasfreeforeveryone 
+
+	brookfield 
+	guest internet wires chaos forever 
+
+
+
+
+		extracted from air,
+		Wednesday, March 23 2016, 19:22:38
+```
+```
+	New Air Poem - 160323234
+
+
+
+	Crazy bean too_guest dolphinVerizon1 FourSeasons maxspot Caf� Muffins 
+
+	crazy dolphin seasons muffins 
+
+
+
+
+		extracted from air,
+		Wednesday, March 23 2016, 19:26:01
+```
+```
+	New Air Poem:
+
+
+
+	AHS PUBLIC Royaldragon6 Butters ambassador 
+
+	public dragon butters ambassador 
+
+
+
+
+		extracted from air,
+		Wednesday, March 23 2016, 10:30:37
+```
+
+
+
 ##About the Code
 coming soon...
 
