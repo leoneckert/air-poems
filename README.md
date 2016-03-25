@@ -160,4 +160,4 @@ me "collecting poems" at grand central, nyc
 ![grand central](https://github.com/leoneckert/air-poems/blob/master/grand_central.jpg)
 
 ##Thanks
-thanks to my amazing teachers:<br> Allison Parrish, Surya Mattu, Kyle McDonald and Lauren McCarthy.
+Thanks to my amazing teachers:<br> Allison Parrish, Surya Mattu, Kyle McDonald and Lauren McCarthy.
