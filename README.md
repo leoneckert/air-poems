@@ -1,5 +1,5 @@
 # Air Poems
-**A program extracting poems from the air around you in realtime.**
+**A program listening to signals from surrounding devices, constructing short poems from their *words.***
 
 Our devices are extremely sociable and - when they are not connected to a wifi network - very *loud*. Then, they constantly should out the names of their past partners, the networks they have been connected to before, in the hope to reunite:<br>*"I have been connected to Starbucks Wifi, are you anywhere out there? I have also been connected to nyuguest, are you anywhere out there? I have also..."*<br>
 <br>
