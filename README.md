@@ -5,7 +5,7 @@ Our devices are extremely sociable and - when they are not connected to a wifi n
 <br>
 Not only is that a very private and sensitive kind of information about their user (a list of network names can say a lot about a person), but - in my opionion - it is also a very poetic one.<br>**Air Poems** is a program that listens to the devices in the surrounding and forms poems using their *words* in real time - poems 100% extracted from air.
 
-#What next? 
+##What next? 
 I hope to install Air Poems as a public installation that continues to output poems constructed from the information of passers-by. Poems could then be displayed on a screen or pushed to a tumblr or twitter feed.
 <br><br>Read some examples below.
 ##About the Code
