@@ -541,7 +541,6 @@ airgraphs
 airlift
 airlifts
 airs
-airt
 airts
 ake
 aked
@@ -1180,7 +1179,6 @@ arrogate
 arrogated
 arrogates
 arrogating
-art
 arterialise
 arterialised
 arterialises
@@ -1694,7 +1692,6 @@ baptize
 baptized
 baptizes
 baptizing
-bar
 barb
 barbarise
 barbarised
@@ -3259,7 +3256,6 @@ burthen
 burthens
 bury
 burying
-bus
 buses
 bush
 bushel
@@ -3865,7 +3861,6 @@ censures
 censuring
 census
 censuses
-center
 centers
 centralise
 centralised
@@ -6609,7 +6604,6 @@ defamed
 defames
 defaming
 defamings
-default
 defaults
 defeat
 defeats
@@ -8297,7 +8291,6 @@ distributed
 distributees
 distributes
 distributing
-district
 districts
 distrust
 distrusts
@@ -8842,7 +8835,6 @@ eased
 eases
 easies
 easing
-easy
 eat
 eaten
 eats
@@ -10415,8 +10407,6 @@ exuviate
 exuviated
 exuviates
 exuviating
-eye
-eyeball
 eyeballs
 eyeing
 eyelet
@@ -11564,7 +11554,6 @@ freckled
 freckles
 freckling
 frecklings
-free
 free-lance
 free-select
 freeboot
@@ -12491,7 +12480,6 @@ grecized
 grecizes
 grecizing
 gree
-green
 greens
 grees
 greet
@@ -13430,14 +13418,12 @@ hough
 houghs
 hound
 hounds
-house
 housed
 housel
 houselled
 houselling
 housellings
 housels
-houses
 hove
 hovel
 hoveled
@@ -15528,7 +15514,6 @@ kithing
 kiting
 kits
 kitted
-kitten
 kittens
 kitting
 kittle
@@ -15595,7 +15580,6 @@ knuckles
 knuckling
 knurl
 knurls
-kodak
 kotow
 kotows
 kourbash
@@ -17920,7 +17904,6 @@ nettled
 nettles
 nettling
 netts
-network
 networks
 neuter
 neuters
@@ -20426,7 +20409,6 @@ poetizes
 poetizing
 poind
 poinds
-point
 pointed
 points
 poise
@@ -21799,7 +21781,6 @@ ravines
 ravins
 ravish
 ravishes
-ray
 rays
 raze
 razed
@@ -23281,7 +23262,6 @@ resonates
 resonating
 resorb
 resorbs
-resort
 resorts
 resound
 resounds
@@ -24631,7 +24611,6 @@ secularises
 secularising
 secularize
 secularizes
-secure
 secures
 sedate
 sedated
@@ -28135,7 +28114,6 @@ tholed
 tholes
 tholing
 thought
-thoughts
 thrall
 thralldom
 thralls
@@ -29479,7 +29457,6 @@ unionising
 unionize
 unionizes
 unite
-united
 unites
 uniting
 unitings
@@ -31078,7 +31055,6 @@ yeast
 yeasts
 yell
 yelled
-yellow
 yellows
 yells
 yelp

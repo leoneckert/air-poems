@@ -742,7 +742,6 @@ abraham
 abram
 acevedo
 acosta
-ada
 adah
 adalberto
 adaline
@@ -5247,7 +5246,6 @@ ona
 oneal
 oneida
 oneill
-oni
 onie
 onita
 ophelia
@@ -6553,7 +6551,6 @@ unicorn
 urlacher
 ursula
 usha
-ute
 vada
 val
 valarie

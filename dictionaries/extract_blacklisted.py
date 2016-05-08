@@ -13,9 +13,10 @@ for d in inputdicts:
 		for blackword in open("blacklist.txt", "r"):
 			blackword = blackword.strip()
 			if word == blackword:
+				print "found in " + d + ":"
 				print word
-				print blackword
-				print d
+				print blackword + " <-- removed."
+				
 				black = True
 			# else:
 				# if(write): writer.write(word)

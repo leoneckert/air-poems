@@ -797,7 +797,6 @@ acyclovir
 acyl
 ad-lib
 ad-libs
-ada
 adage
 adages
 adagio
@@ -88147,7 +88146,6 @@ usury
 ut
 utah
 utas
-ute
 utensil
 utensils
 uterus
