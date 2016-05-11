@@ -5,9 +5,8 @@ from pattern.en import tag
 
 
 
-
-
 words_by_pos = dict()
+
 
 def add_word(w,pos):
 	if pos not in words_by_pos:
@@ -26,7 +25,7 @@ def print_type(startswith):
 
 def to_files():
 	for t in words_by_pos:
-		writer = open("out_files/" + str(t) + "_4.txt", "w")
+		writer = open("out_files/" + str(t) + "_1.txt", "w")
 		for w in words_by_pos[t]:
 			print "\t\t", w
 			writer.write(w)
@@ -51,17 +50,10 @@ def to_files_special_dict(dict_name):
 
 
 
-
-# ----------------------------
-
-
-
-
-rawjson = open("verbs_corpora.json").read()  #puts the file as a big string into the variable rawjson
+rawjson = open("secret_societies_corpora.json").read()  #puts the file as a big string into the variable rawjson
 data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
-for elem in data["verbs"]:
-	w = elem["present"]
-
+for elem in data:
+	w = elem["name"]
 	pos = tag(w)[-1][1]
 	# print "-"*20
 	# print w, pos
@@ -86,8 +78,11 @@ for elem in data["verbs"]:
 		# print w, pos
 		add_word(w,pos)
 
-	w = elem["past"]
-	
+rawjson = open("us_presidents_corpora.json").read()  #puts the file as a big string into the variable rawjson
+data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
+for elem in data["objects"]:
+	w = elem["person"]["lastname"]
+	# print w
 	pos = tag(w)[-1][1]
 	# print "-"*20
 	# print w, pos
@@ -113,6 +108,7 @@ for elem in data["verbs"]:
 		add_word(w,pos)
 
 
-# pprint(words_by_pos)
+pprint(words_by_pos)
 count_types()
-to_files()
+
+to_files_special_dict("people3")

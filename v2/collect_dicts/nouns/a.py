@@ -1,87 +1,59 @@
 import json
 from textblob import TextBlob, Word
 from pprint import pprint
+from pattern.en import tag
 
 words_by_pos = dict()
 
-rawjson = open("elements_corpora.json").read()  #puts the file as a big string into the variable rawjson
-data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
-
-for elem in data['elements']:
-	w = elem["name"]
-	pos = TextBlob(w).tags[-1][1]
+def add_word(w,pos):
 	if pos not in words_by_pos:
 		words_by_pos[pos] = set()
 	words_by_pos[pos].add(w)
+def count_types():
+	for t in words_by_pos:
+		print t, len(words_by_pos[t])
 
-
-rawjson = open("flowers_corpora.json").read()  #puts the file as a big string into the variable rawjson
-data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
-
-for w in data['flowers']:
-	pos = TextBlob(w).tags[-1][1]
-	if pos not in words_by_pos:
-		words_by_pos[pos] = set()
-	words_by_pos[pos].add(w)
-
-
-rawjson = open("nouns_corpora.json").read()  #puts the file as a big string into the variable rawjson
-data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
-
-for w in data['nouns']:
-	pos = TextBlob(w).tags[-1][1]
-	if pos not in words_by_pos:
-		words_by_pos[pos] = set()
-	words_by_pos[pos].add(w)
-
-rawjson = open("objects_corpora.json").read()  #puts the file as a big string into the variable rawjson
-data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
-
-for w in data['objects']:
-	pos = TextBlob(w).tags[-1][1]
-	if pos not in words_by_pos:
-		words_by_pos[pos] = set()
-	words_by_pos[pos].add(w)
-
-
-rawjson = open("personal_nouns_corpora.json").read()  #puts the file as a big string into the variable rawjson
-data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
-
-for w in data['personalNouns']:
-	pos = TextBlob(w).tags[-1][1]
-	if pos not in words_by_pos:
-		words_by_pos[pos] = set()
-	words_by_pos[pos].add(w)
-
-
-
-for penn in words_by_pos:
-	print penn
-	writer = open(str(penn) + "_common3.txt", "w")
-	for w in words_by_pos[penn]:
-		print "\t\t", w
-		writer.write(w)
-		writer.write("\n")
-		if penn.startswith("VB") and Word(w).lemmatize('v') is not w:
-			print "\t\t\t\t\t", Word(w).lemmatize('v')
-			writer.write(Word(w).lemmatize('v'))
-			writer.write("\n")
-		if penn.startswith("NN") and Word(w).lemmatize('n') is not w:
-			print "\t\t\t\t\t", Word(w).lemmatize('n')
-			writer.write(Word(w).lemmatize('n'))
-			writer.write("\n")
-		if penn.startswith("JJ") and Word(w).lemmatize('a') is not w:
-			print "\t\t\t\t\t", Word(w).lemmatize('a')
-			writer.write(Word(w).lemmatize('a'))
+def to_files():
+	for t in words_by_pos:
+		writer = open("out_files/" + str(t) + "_2.txt", "w")
+		for w in words_by_pos[t]:
+			# print "\t\t", w
+			writer.write(w)
 			writer.write("\n")
 	writer.close()
+	print "[+] saved to files."
+
+rawjson = open("elements_corpora.json").read()  #puts the file as a big string into the variable rawjson
+data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
+for elem in data["elements"]:
+	w = elem["name"]
+	pos = tag(w)[-1][1]
+	# print "-"*20
+	# print w, pos
+	add_word(w,pos)
+
+	if pos.startswith("VB") and Word(w).lemmatize('v') is not w:
+		w = Word(w).lemmatize('v')
+		pos = tag("to " + w)[-1][1]
+		# print "-"*5
+		# print w, pos
+		add_word(w,pos)
+	if pos.startswith("NN") and Word(w).lemmatize('n') is not w:
+		w = Word(w).lemmatize('n')
+		pos = tag(w)[-1][1]
+		# print "-"*5
+		# print w, pos
+		add_word(w,pos)
+	if pos.startswith("JJ") and Word(w).lemmatize('a') is not w:
+		w = Word(w).lemmatize('a')
+		pos = tag("a " + w + " thing")[-2][1]
+		# print "-"*5
+		# print w, pos
+		add_word(w,pos)
 
 
+count_types()
+to_files()
 
 
-
-
-
-# pprint(words_by_pos)
-
-
+pprint(words_by_pos)
