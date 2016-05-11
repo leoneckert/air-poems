@@ -31,8 +31,15 @@ def sniffing_handler(line):
 
 def Main():  
 	poetfunc.initDicts()
-	
 	syssniff.sniffloop(sniffing_handler)
+
+	poetfunc.printAvailable()
+	for i in range(30):
+		poetfunc.build_sentence()
+		poetfunc.build_sentence()
+		poetfunc.build_sentence()
+		poetfunc.build_sentence()
+		poetfunc.build_sentence()
 
 
 if __name__ == '__main__':

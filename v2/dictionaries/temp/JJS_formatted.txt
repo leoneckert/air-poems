@@ -1,0 +1,16 @@
+biggest
+broadest
+healthiest
+least
+lightest
+loudest
+loveliest
+newest
+oldest
+poorest
+safest
+simplest
+tallest
+weakest
+winningest
+worst
