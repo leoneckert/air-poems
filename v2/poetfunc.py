@@ -32,17 +32,18 @@ from nltk.corpus import words
 
 available = dict()
 def getWordsInSsid(ssid):
-	# print "-"*10
-	# print ssid
+	print "-"*10
+	print ssid
 	len_ssid = len(ssid)
 
 	for penn in dictionaries:
 		for word in dictionaries[penn]:
-			if word in ssid.lower():
-				# print "\t\t", word, penn
+			if len(word) > 2 and word in ssid.lower():
+				print "\t\t", word, penn
 				if penn not in available:
 					available[penn] = dict()
 				available[penn][word] = [1, ssid]
+			
 
 
 
