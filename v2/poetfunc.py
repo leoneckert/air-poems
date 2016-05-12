@@ -69,7 +69,31 @@ def printAvailable():
 				print "\t\t\t\t\t\t\t\t\t", ssid_data[0][ssid_data[1]:ssid_data[2]]
 
 
+def deleteUsedData(data):
+	word = data[0]
+	penn = data[1] 
+	ssid = data[2]
+	start_idx = data[3] 
+	end_idx = data[4] 
 
+	# if the word was ued twice in the sentence we return directly:
+	if penn not in available:
+		print "already deleted:", penn
+		return True
+	if word not in available[penn]:
+		print "already deleted:", word, "in", penn
+		return True
+	if (ssid, start_idx, end_idx) not in available[penn][word]:
+		print "already deleted:", (ssid, start_idx, end_idx), "in", word, "in", penn
+		return True
+
+	
+	available[penn][word].remove((ssid, start_idx, end_idx))
+
+	if len(available[penn][word]) < 1:
+		del available[penn][word]
+	if len(available[penn]) < 1:
+		del available[penn]
 
 def hasData(penn):
 	if penn in available and len(available[penn]):
@@ -85,6 +109,8 @@ start_and_end_Mark = "***@***"
 
 def returnList(penn):
 	return [elem.split()[0] + start_and_end_Mark + start_ind + elem + sep_ind + penn + sep_ind + str(available[penn][elem][0]) + end_ind + start_and_end_Mark + elem.split()[-1] for elem in available[penn]]
+
+
 
 
 import tracery
@@ -123,11 +149,11 @@ def build_sentence():
 	
 	if len(gen_sentence) > 0:
 		sentence_details = list()
-		print gen_sentence
+		# print gen_sentence
 		gen_sentence_list = gen_sentence.split(start_and_end_Mark)
 		for i in range(len(gen_sentence_list)):
 			elem = gen_sentence_list[i]
-			print "ELEM:", elem
+			# print "ELEM:", elem
 			sentence_details.append(elem)
 
 			if elem.startswith(start_ind) and i > 0:
@@ -166,6 +192,9 @@ def build_sentence():
 		sentence_details = temp_list
 		for e in sentence_details:
 			print e
+			if len(e) == 5:
+				deleteUsedData(e)
+		# print "\tAVAILABLE:", available
 
 
 		# next up: removing the word fro the available dicts and print it out
