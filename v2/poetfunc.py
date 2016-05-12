@@ -95,11 +95,7 @@ def build_sentence():
 	    's1': '#name# and #name# #verb# with #nounS.a#',
 	    's2': 'The #adjective# #name# and the #adjective# #name# #verb# with #nounS.a#',
 	    
-	    # 'nounS': [start + nounS + "@sepe*rate@" + str(available["nounS"][nounS][0]) + "@e*nd@" for nounS in available["nounS"]] if hasData("nounS") > 0 else noData,
 	    'nounS': returnList("nounS") if hasData("nounS") > 0 else noData,
-	    # 'verb': [verb for verb in available["VB"]] if hasData("VB") > 0 else noData,
-	    # 'name': [name for name in available["names"]] if hasData("names") > 0 else noData,
-	    # 'adjective': [adj for adj in available["JJ"]] if hasData("JJ") > 0 else noData
 	    'verb': returnList("VB") if hasData("VB") > 0 else noData,
 	    'name': returnList("names") if hasData("names") > 0 else noData,
 	    'adjective': returnList("JJ") if hasData("JJ") > 0 else noData
@@ -172,62 +168,8 @@ def build_sentence():
 			print e
 
 
+		# next up: removing the word fro the available dicts and print it out
 
-
-		# 	if elem.startswith(start_ind) and i > 0:
-		# 		# print gen_sentence_list[i -1].split()
-		# 		print gen_sentence_list[i -1]
-		# 		gen_sentence_list[i -1] = " ".join(gen_sentence_list[i -1].split()[:-1])
-		# 		# print gen_sentence_list[i -1].split()[-1]
-		# 		# gen_sentence_list[i -1].remove(gen_sentence_list[i -1].split()[-1])
-		# 		print gen_sentence_list[i -1]
-		# 		# gen_sentence_list[i -1] = gen_sentence_list[i -1].split()[:-1]
-		# print "-"
-		# for i in range(len(gen_sentence_list)):
-		# 	elem = gen_sentence.split(start_and_end_Mark)[i]
-		# 	print "ELEM:", elem
-			
-			# if elem.startswith(start_ind) and i > 0:
-			# 	print gen_sentence_list[i -1].split()
-			# 	print gen_sentence_list[i -1].split()[:-1]
-			# 	gen_sentence_list[i -1] = gen_sentence_list[i -1].split()[:-1]
-			
-			# if elem.endswith(end_ind) and i < len(gen_sentence_list) - 1:
-			# 	print gen_sentence_list[i +1].split()
-			# 	print gen_sentence_list[i +1].split()[1:]
-			# 	gen_sentence_list[i +1] = gen_sentence_list[i +1].split()[1:]
-
-
-		# subString = gen_sentence
-		# while subString.find(start_ind) > -1:
-		# 	if subString.find(start_ind) > 0:
-		# 		if subString[0:subString.find(start_ind)].startswith(end_ind):
-		# 			subString = subString[len(end_ind):]
-
-		# 		filler = " ".join([w for w in subString[0:subString.find(start_ind)].split() if start_and_end_Mark not in w])
-		# 		if len(filler) > 0:
-		# 			print filler, "(filler)"
-		# 			# print " ".join([w for w in subString[0:subString.find(start_ind)].split() if start_and_end_Mark not in w]), "(filler)"
-		# 		# else:
-		# 		# 	print "this would only be the old end ind"
-		# 		subString = subString[subString.find(start_ind):]
-			
-		# 	subString = subString[len(start_ind):]
-
-		# 	# print "special", subString[0:subString.find(end_ind)]
-		# 	# print "special", subString[0:subString.find(end_ind)].split('@')
-		# 	word = subString[0:subString.find(end_ind)].split('@')[0]
-		# 	penn = subString[0:subString.find(end_ind)].split('@')[2]
-		# 	# print "special", subString[0:subString.find(end_ind)].split('@')[0]
-		# 	# print "special", subString[0:subString.find(end_ind)].split('@')[2].split(',')
-		# 	# print "special", subString[0:subString.find(end_ind)].split('@')[4].split(',')[0][2:-1]
-		# 	ssid = subString[0:subString.find(end_ind)].split('@')[4].split(',')[0][2:-1]
-		# 	# print "special", subString[0:subString.find(end_ind)].split('@')[4].split(',')[1][1:]
-		# 	ssid_word_start_index = int(subString[0:subString.find(end_ind)].split('@')[4].split(',')[1][1:])
-		# 	# print "special", subString[0:subString.find(end_ind)].split('@')[4].split(',')[2][1:-1]
-		# 	ssid_word_end_index = int(subString[0:subString.find(end_ind)].split('@')[4].split(',')[2][1:-1])
-		# 	print word, penn, ssid, ssid_word_start_index, ssid_word_end_index
-		# 	subString = subString[subString.find(end_ind):]
 
 
 
