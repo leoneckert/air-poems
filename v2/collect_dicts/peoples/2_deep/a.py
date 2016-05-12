@@ -48,9 +48,9 @@ def to_files_special_dict(dict_name):
 
 dicts = dict()
 dicts["archetypes_characters_corpora"] = ["characters", "name"]
-dicts["nfl_teams_corpora"] = ["nfl_teams", "name"]
-dicts["rich_people_corpora"] = ["richPeople", "name"]
-dicts["rock_hall_of_fame_corpora"] = ["artists", "name"]
+# dicts["nfl_teams_corpora"] = ["nfl_teams", "name"]
+# dicts["rich_people_corpora"] = ["richPeople", "name"]
+# dicts["rock_hall_of_fame_corpora"] = ["artists", "name"]
 
 
 
@@ -85,8 +85,9 @@ for d in dicts:
 			add_word(w,pos)
 
 count_types()
-pprint(words_by_pos)
+# pprint(words_by_pos)
 # print_type("NNP-ORG")
 # to_files()
-to_files_special_dict("people2")
+to_files_special_dict("noun_singular_2")
 
+# 

@@ -50,33 +50,33 @@ def to_files_special_dict(dict_name):
 
 
 
-rawjson = open("secret_societies_corpora.json").read()  #puts the file as a big string into the variable rawjson
-data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
-for elem in data:
-	w = elem["name"]
-	pos = tag(w)[-1][1]
-	# print "-"*20
-	# print w, pos
-	add_word(w,pos)
+# rawjson = open("secret_societies_corpora.json").read()  #puts the file as a big string into the variable rawjson
+# data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
+# for elem in data:
+# 	w = elem["name"]
+# 	pos = tag(w)[-1][1]
+# 	# print "-"*20
+# 	# print w, pos
+# 	add_word(w,pos)
 
-	if pos.startswith("VB") and Word(w).lemmatize('v') is not w:
-		w = Word(w).lemmatize('v')
-		pos = tag("to " + w)[-1][1]
-		# print "-"*5
-		# print w, pos
-		add_word(w,pos)
-	if pos.startswith("NN") and Word(w).lemmatize('n') is not w:
-		w = Word(w).lemmatize('n')
-		pos = tag(w)[-1][1]
-		# print "-"*5
-		# print w, pos
-		add_word(w,pos)
-	if pos.startswith("JJ") and Word(w).lemmatize('a') is not w:
-		w = Word(w).lemmatize('a')
-		pos = tag("a " + w + " thing")[-2][1]
-		# print "-"*5
-		# print w, pos
-		add_word(w,pos)
+# 	if pos.startswith("VB") and Word(w).lemmatize('v') is not w:
+# 		w = Word(w).lemmatize('v')
+# 		pos = tag("to " + w)[-1][1]
+# 		# print "-"*5
+# 		# print w, pos
+# 		add_word(w,pos)
+# 	if pos.startswith("NN") and Word(w).lemmatize('n') is not w:
+# 		w = Word(w).lemmatize('n')
+# 		pos = tag(w)[-1][1]
+# 		# print "-"*5
+# 		# print w, pos
+# 		add_word(w,pos)
+# 	if pos.startswith("JJ") and Word(w).lemmatize('a') is not w:
+# 		w = Word(w).lemmatize('a')
+# 		pos = tag("a " + w + " thing")[-2][1]
+# 		# print "-"*5
+# 		# print w, pos
+# 		add_word(w,pos)
 
 rawjson = open("us_presidents_corpora.json").read()  #puts the file as a big string into the variable rawjson
 data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
@@ -111,4 +111,4 @@ for elem in data["objects"]:
 pprint(words_by_pos)
 count_types()
 
-to_files_special_dict("people3")
+to_files_special_dict("names3")

@@ -23,6 +23,21 @@ def to_files():
 	writer.close()
 	print "[+] saved to files."
 
+def to_files_special_dict(dict_name):
+	writer = open("out_files/" + str(dict_name) + ".txt", "w")
+	count = 0
+	for t in words_by_pos:
+		for w in words_by_pos[t]:
+			print "\t\t", w
+			try:
+				writer.write(w)
+				writer.write("\n")
+				count += 1
+			except:
+				nevermind = 1
+	writer.close()
+	print "[+] saved to files. Saved", count, "words."
+
 rawjson = open("elements_corpora.json").read()  #puts the file as a big string into the variable rawjson
 data = json.loads(rawjson) #json.loads take a string and turns it into a data structure
 for elem in data["elements"]:
@@ -53,7 +68,6 @@ for elem in data["elements"]:
 
 
 count_types()
-to_files()
-
-
+# to_files()
 pprint(words_by_pos)
+to_files_special_dict("names4")

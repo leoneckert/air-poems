@@ -31,6 +31,7 @@ def sniffing_handler(line):
 
 def Main():  
 	poetfunc.initDicts()
+	# poetfunc.printDictionairies()
 	syssniff.sniffloop(sniffing_handler)
 
 	# poetfunc.printAvailable()

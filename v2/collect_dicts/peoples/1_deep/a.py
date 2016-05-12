@@ -38,8 +38,11 @@ def to_files():
 		writer = open("out_files/" + str(t) + "_1.txt", "w")
 		for w in words_by_pos[t]:
 			print "\t\t", w
-			writer.write(w)
-			writer.write("\n")
+			try:
+				writer.write(w)
+				writer.write("\n")
+			except:
+				nevermind = 1
 	writer.close()
 	print "[+] saved to files."
 
@@ -61,16 +64,20 @@ def to_files_special_dict(dict_name):
 
 
 dicts = dict()
-dicts["authors_corpora"] = "authors"
-dicts["british_actors_corpora"] = "britishActors"
+#NAMES:
+# dicts["authors_corpora"] = "authors"
+# dicts["british_actors_corpora"] = "britishActors"
+# dicts["scientists_corpora"] = "scientists"
+# dicts["spanisch_first_names_corpora"] = "firstNames"
+# dicts["spanish_last_names"] = "lastNames"
+# dicts["first_names_corpora"] = "firstNames"
+# dicts["greek_gods_corpora"] = "greek_gods"
+# dicts["last_names_corpora"] = "lastNames"
+
+
 dicts["common_animals_corpora"] = "animals"
-dicts["first_names_corpora"] = "firstNames"
-dicts["greek_gods_corpora"] = "greek_gods"
-dicts["last_names_corpora"] = "lastNames"
 dicts["monsters_corpora"] = "names"
-dicts["scientists_corpora"] = "scientists"
-dicts["spanisch_first_names_corpora"] = "firstNames"
-dicts["spanish_last_names"] = "lastNames"
+
 
 
 
@@ -102,9 +109,11 @@ for d in dicts:
 			# print w, pos
 			add_word(w,pos)
 
-count_types()
-pprint(words_by_pos)
+# count_types()
+# pprint(words_by_pos)
 # print_type("NNP-ORG")
-to_files_special_dict("people")
+# to_files_special_dict("names")
+to_files_special_dict("noun_singular_1")
+# to_files()
 
 
