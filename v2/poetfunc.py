@@ -1,15 +1,17 @@
 from pprint import pprint
 import random
+import os
+from textblob import TextBlob, Word
+from nltk.corpus import words
+import tracery
+from tracery.modifiers import base_english
+import printpoetry
 
-# # dicts = ["verbs", "adjectives", "obscenes", "adverbs", "places", "peoples", "nouns"]
-# dicts = ["out"]
+
 
 dictionaries = dict()
 
 
-
-
-import os
 def initDicts():
 	for root, dirs, files in os.walk("./dictionaries/temp"):
 		for file in files:
@@ -30,11 +32,6 @@ def printDictionairies():
 		print "--\ndictionairy:", d
 		print "\t\twords", len(dictionaries[d])
 
-
-
-from textblob import TextBlob, Word
-from nltk.corpus import words
-
 available = dict()
 shortestWordLength = 2
 def getWordsInSsid(ssid):
@@ -53,7 +50,6 @@ def getWordsInSsid(ssid):
 				available[penn][word].append(temp_tuple)
 	build_sentence()
 			
-
 
 
 def printAvailable():
@@ -78,13 +74,10 @@ def deleteUsedData(data):
 
 	# if the word was ued twice in the sentence we return directly:
 	if penn not in available:
-		print "already deleted:", penn
 		return True
 	if word not in available[penn]:
-		print "already deleted:", word, "in", penn
 		return True
 	if (ssid, start_idx, end_idx) not in available[penn][word]:
-		print "already deleted:", (ssid, start_idx, end_idx), "in", word, "in", penn
 		return True
 
 	
@@ -113,8 +106,7 @@ def returnList(penn):
 
 
 
-import tracery
-from tracery.modifiers import base_english
+
 def build_sentence():
 	rules = {
 	    's0': '#nounS.a.capitalize# and #nounS.a# #verb# with #nounS.a#',
@@ -190,14 +182,16 @@ def build_sentence():
 			temp_list.append(e)
 		sentence_details = list()
 		sentence_details = temp_list
+		
+		# delete the data that was picked from the available-dictionairy
 		for e in sentence_details:
-			print e
+			
 			if len(e) == 5:
 				deleteUsedData(e)
-		# print "\tAVAILABLE:", available
+		print sentence_details
 
+		printpoetry.printp(sentence_details)
 
-		# next up: removing the word fro the available dicts and print it out
 
 
 
