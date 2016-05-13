@@ -10,21 +10,46 @@ import printpoetry
 
 
 dictionaries = dict()
+blacklist = dict()
 
 
 def initDicts():
-	for root, dirs, files in os.walk("./dictionaries/temp"):
+	# here we should also initialise the BLACKLIST # this format: [gordon#names]
+	for root, dirs, files in os.walk("./dictionaries"):
 		for file in files:
-			if file.endswith(".txt"):
+			if file.endswith(".txt") and file.startswith("_"):
 				path = os.path.join(root, file)
 				filename = str(file)
-				penn = filename.split('_')[0]
+				penn = filename.split('_')[1]
 				for word in open(path, "r"):
 					word = word.strip()
 
 					if penn not in dictionaries:
 						dictionaries[penn] = set()
 					dictionaries[penn].add(word)
+
+					if penn not in blacklist:
+						blacklist[penn] = set()
+	
+	for root, dirs, files in os.walk("./dictionaries"):
+		for file in files:
+			if file.endswith(".txt") and file.startswith("blacklist"):
+				path = os.path.join(root, file)
+				filename = str(file)
+				for word in open(path, "r"):
+					word = word.strip()
+					# print word
+					# print word[1:-1]
+					# print word[1:-1].split("#")
+					back_listed_word = word[1:-1].split("#")[0]
+					penn = word[1:-1].split("#")[1]
+					# print back_listed_word, penn
+					if penn not in blacklist:
+						blacklist[penn] = set()
+					blacklist[penn].add(back_listed_word)
+	pprint(blacklist)
+
+
 
 
 def printDictionairies():
@@ -35,13 +60,18 @@ def printDictionairies():
 available = dict()
 shortestWordLength = 2
 def getWordsInSsid(ssid):
-	print "-"*10
-	print ssid
+	# print "-"*10
+	# print ssid
 	len_ssid = len(ssid)
 	for penn in dictionaries:
 		for word in dictionaries[penn]:
 			if len(word) > shortestWordLength and word in ssid.lower():
 				# print "\t\t", word, penn
+
+				# here we build in a BLACKSLIST mechanism
+				if word in blacklist[penn]:
+					break
+
 				if penn not in available:
 					available[penn] = dict()
 				if word not in available[penn]:
@@ -71,17 +101,24 @@ def deleteUsedData(data):
 	ssid = data[2]
 	start_idx = data[3] 
 	end_idx = data[4] 
+	# print str(ssid)
+	# print "delete:", (ssid, start_idx, end_idx)
 
 	# if the word was ued twice in the sentence we return directly:
 	if penn not in available:
 		return True
+	# else:
+		# print available[penn]
+
 	if word not in available[penn]:
 		return True
 	if (ssid, start_idx, end_idx) not in available[penn][word]:
 		return True
-
 	
+	
+
 	available[penn][word].remove((ssid, start_idx, end_idx))
+	
 
 	if len(available[penn][word]) < 1:
 		del available[penn][word]
@@ -109,17 +146,18 @@ def returnList(penn):
 
 def build_sentence():
 	rules = {
-	    's0': '#nounS.a.capitalize# and #nounS.a# #verb# with #nounS.a#',
-	    's1': '#name# and #name# #verb# with #nounS.a#',
-	    's2': 'The #adjective# #name# and the #adjective# #name# #verb# with #nounS.a#',
+		's0': '#name# is happy happy happy',
+	    # 's0': '#nounS.a.capitalize# and #nounS.a# #verb# with #nounS.a#',
+	    # 's1': '#name# and #name# #verb# with #nounS.a#',
+	    # 's2': 'The #adjective# #name# and the #adjective# #name# #verb# with #nounS.a#',
 	    
-	    'nounS': returnList("nounS") if hasData("nounS") > 0 else noData,
-	    'verb': returnList("VB") if hasData("VB") > 0 else noData,
-	    'name': returnList("names") if hasData("names") > 0 else noData,
-	    'adjective': returnList("JJ") if hasData("JJ") > 0 else noData
+	    # 'nounS': returnList("nounS") if hasData("nounS") > 0 else noData,
+	    # 'verb': returnList("VB") if hasData("VB") > 0 else noData,
+	    'name': returnList("names") if hasData("names") > 0 else noData
+	    # 'adjective': returnList("JJ") if hasData("JJ") > 0 else noData
 
 	}
-	numPennInRules = 4
+	numPennInRules = 1
 
 	grammar = tracery.Grammar(rules)
 	grammar.add_modifiers(base_english)
@@ -158,7 +196,7 @@ def build_sentence():
 				sentence_details[i + 1] = " ".join(sentence_details[i + 1].split()[1:])
 
 
-		print "-"
+		# print "-"
 		temp_list = list()
 		for e in sentence_details:
 			if len(e) > 0:
@@ -168,12 +206,14 @@ def build_sentence():
 		sentence_details = temp_list
 		temp_list = list()
 		for e in sentence_details:
+			# print "\t\t", e
 			if e.startswith(start_ind):
 				e = e[len(start_ind):-len(end_ind)]
 				word = e.split(sep_ind)[0]
 				penn = e.split(sep_ind)[1]
 				ssid_data = e.split(sep_ind)[2]
 				ssid = ssid_data.split(',')[0][2:-1]
+
 				ssid_word_start_index = int(ssid_data.split(',')[1][1:])
 				ssid_word_end_index = int(ssid_data.split(',')[2][1:-1])
 				e = [word, penn, ssid, ssid_word_start_index, ssid_word_end_index]
@@ -188,10 +228,10 @@ def build_sentence():
 			
 			if len(e) == 5:
 				deleteUsedData(e)
-		print sentence_details
+		# print sentence_details
 
 		printpoetry.printp(sentence_details)
-
+		# pprint(available)
 
 
 

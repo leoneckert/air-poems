@@ -4,7 +4,9 @@ import poetfunc
 from pprint import pprint
 
 
+import string
 
+printable = set(string.printable)
 
 
 
@@ -20,9 +22,17 @@ def sniffing_handler(line):
 		request_type = elems[1]
 		MAC = elems[2]
 		ssid = elems[3]
+		# print ssid
+		ssid  = filter(lambda x: x in printable, ssid)
 		if ssid not in seenBefore:
+			# ssid  = filter(lambda x: x in printable, ssid)
 			seenBefore.add(ssid)
 			poetfunc.getWordsInSsid(ssid)
+			# print ssid
+			# for l in ssid:
+			# 	print l
+			# print "\t\t", filter(lambda x: x in printable, ssid)
+
 
 
 

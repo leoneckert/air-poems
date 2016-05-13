@@ -1,3 +1,6 @@
+blackListExtendMode = False
+blackListExtendMode = True
+
 def getTerminalSize():
     import os
     env = os.environ
@@ -23,15 +26,52 @@ def getTerminalSize():
     return int(cr[1]), int(cr[0])
 
 
+import time
 def printp(poetry_data):
 	t_width = getTerminalSize()[0]
+	t_height = getTerminalSize()[1]
 
-	print " "*(t_width/2), "|", "\n"
-	# print 
+	indexForPoem = -1
+	indexLog = open("index_count.log", "r")
+	indexLog_line =  indexLog.read()
+	indexLog.close()
+	indexLog_elems = indexLog_line.split(" ")
+	currentDateForIndexing = time.strftime("%x")[6:] + time.strftime("%x")[:2] + time.strftime("%x")[3:-3]
+	indexLog = open("index_count.log", "w")
+	if indexLog_elems[0] == currentDateForIndexing:
+		indexForPoem = int(indexLog_elems[1]) + 1
+		indexLog.write(currentDateForIndexing + " " + str(indexForPoem))
+		indexLog.close()
+	else:
+		indexForPoem = 1
+		indexLog.write(currentDateForIndexing + " " + str(indexForPoem))
+		indexLog.close()
+
+
+	# print str(currentDateForIndexing) + str(indexForPoem)
+	poem_index = "#" + str(currentDateForIndexing) + str(indexForPoem)
+	# print " "*(t_width/2 - len(poem_index)/2), poem_index
+
+	
+	line_length_of_poem = (len([d for d in poetry_data if len(d) is 5])*2 + 3)
+	# print line_length_of_poem
+	lines_top_print = t_height/2 - line_length_of_poem/2 - 1
+	for i in range(lines_top_print):
+		if i is lines_top_print - 3:
+			print " "*(t_width/2 - len(poem_index)/2), poem_index
+		else:
+			print " "*(t_width/2), "|"
+
+	# print " "*(t_width/2), "|", "\n"
+	print ""
 	for d in poetry_data:
+
 		if len(d) is 5:
 			print " "*(t_width/2 - d[3]),
-			print d[2]
+			if blackListExtendMode is True:
+				print d[2], "[" + str(d[0]) + "#" + str(d[1]) + "]"
+			else:
+				print d[2]
 	print "\n", " "*(t_width/2), "|", "\n"
 	# print "-"
 
@@ -71,10 +111,15 @@ def printp(poetry_data):
 				string_to_prepend = ""
 			chunks_to_print.append([string_to_print, offset])
 
+	# if len(string_to_prepend) > 0:
+
 	# print chunks_to_print
 	for d in chunks_to_print:
 		print " "*(t_width/2 - d[1]),
 		print d[0]
 
-	print "\n", " "*(t_width/2), "|", "\n"
+	print ""
+	for i in range(t_height/2 - line_length_of_poem/2 - 1):
+		print " "*(t_width/2), "|"
+	# print "\n", " "*(t_width/2), "|", "\n"
 

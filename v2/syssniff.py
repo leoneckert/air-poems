@@ -33,6 +33,7 @@ def channel_controller(c, c_hop_interval):
     return c
 
 
+
 def sniffloop(handle_function):
     global current_channel
     count = 10
@@ -46,8 +47,7 @@ def sniffloop(handle_function):
 		#next line for channel hoping:
 		# count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
 		line = line.strip()
-		
-
+		# seenBefore['r'] = 0
 		handle_function(line)
 
 
