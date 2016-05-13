@@ -24,6 +24,8 @@ def sniffing_handler(line):
 		ssid = elems[3]
 		# print ssid
 		ssid  = filter(lambda x: x in printable, ssid)
+
+		ssid = ssid.strip('#')
 		if ssid not in seenBefore:
 			# ssid  = filter(lambda x: x in printable, ssid)
 			seenBefore.add(ssid)

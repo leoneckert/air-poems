@@ -76,6 +76,8 @@ def getWordsInSsid(ssid):
 					available[penn] = dict()
 				if word not in available[penn]:
 					available[penn][word] = list()
+				
+
 				temp_tuple = (ssid,ssid.lower().index(word),ssid.lower().index(word) + len(word))
 				available[penn][word].append(temp_tuple)
 	build_sentence()
@@ -146,18 +148,27 @@ def returnList(penn):
 
 def build_sentence():
 	rules = {
-		's0': '#name# is happy happy happy',
+		's0': '#name.capitalize# and #name# are happy happy happy',
+		's1': '#actorSG.a.capitalize# and #name# are happy happy happy',
+		's2': '#actorSG.a.capitalize# and #actorSG.a# are happy happy happy',
+		's3': '#name.capitalize# and #actorSG.a# are happy happy happy',
+
 	    # 's0': '#nounS.a.capitalize# and #nounS.a# #verb# with #nounS.a#',
 	    # 's1': '#name# and #name# #verb# with #nounS.a#',
 	    # 's2': 'The #adjective# #name# and the #adjective# #name# #verb# with #nounS.a#',
 	    
 	    # 'nounS': returnList("nounS") if hasData("nounS") > 0 else noData,
 	    # 'verb': returnList("VB") if hasData("VB") > 0 else noData,
-	    'name': returnList("names") if hasData("names") > 0 else noData
+
+
+	    'name': returnList("names") if hasData("names") > 0 else noData,
+	    'actorSG': returnList("actorsSG") if hasData("actorsSG") > 0 else noData
+
+
 	    # 'adjective': returnList("JJ") if hasData("JJ") > 0 else noData
 
 	}
-	numPennInRules = 1
+	numPennInRules = 2
 
 	grammar = tracery.Grammar(rules)
 	grammar.add_modifiers(base_english)
@@ -223,15 +234,32 @@ def build_sentence():
 		sentence_details = list()
 		sentence_details = temp_list
 		
-		# delete the data that was picked from the available-dictionairy
+		#check if we want to use the data we picked:
+		wordsSeen = set()
+		ssidsSeen = set()
+		useThisData = True
 		for e in sentence_details:
-			
 			if len(e) == 5:
-				deleteUsedData(e)
-		# print sentence_details
+				word = e[0]
+				if word not in wordsSeen:
+					wordsSeen.add(word)
+				else:
+					useThisData = False
+				ssid = e[2]
+				if ssid not in ssidsSeen:
+					ssidsSeen.add(ssid)
+				else:
+					useThisData = False
 
-		printpoetry.printp(sentence_details)
-		# pprint(available)
+		if useThisData is True:
+			# delete the data that was picked from the available-dictionairy
+			for e in sentence_details:
+				if len(e) == 5:
+					deleteUsedData(e)
+			# print sentence_details
+
+			printpoetry.printp(sentence_details)
+			# pprint(available)
 
 
 

@@ -1,0 +1,1202 @@
+wight
+mandrill
+ferret
+ram
+coil taper
+tailor
+taper
+alpaca
+panther
+approver
+team assembler
+nix
+naga
+jaguar
+jackal
+housekeeping cleaner
+parts salesperson
+food technologist
+engineering teacher
+costume attendant
+roc
+rehabilitation counselor
+crocodile
+probation officer
+engraver
+transportation worker
+internist
+microbiologist
+mechanical drafter
+tool sharpener
+loan officer
+secondary school teacher
+respiratory therapist
+medical equipment preparer
+petroleum pump system operator
+ticket taker
+tractor-trailer truck driver
+transportation inspector
+loan clerk
+commercial diver
+baggage porter
+manicurist
+oven operator
+maxillofacial surgeon
+self-enrichment education teacher
+network systems administrator
+tool maker
+travel agent
+philosophy teacher
+assembler
+highway maintenance worker
+human service assistant
+computer programmer
+chameleon
+nuclear technician
+mining safety inspector
+brownie
+psychologist
+custom sewer
+construction worker
+order filler
+llama
+software developer
+communications equipment operator
+surgeon
+advertising sales agent
+television announcer
+environmental science teacher
+wellhead pumper
+painter 
+expediting clerk
+parrot
+investigator
+photographic process worker
+gnu
+commercial pilot
+loading machine operator
+motorboat service technician
+therapist
+marketing specialist
+environmental engineer
+home appliance repairer
+veterinary assistant
+health educator
+metal pickling operator
+water treatment plant operator
+crow
+metal-refining furnace operator
+chemistry teacher
+production occupation
+chef
+real estate appraiser
+general manager
+crane operator
+hearing officer
+lawyer
+english language teacher
+proofreader
+psychiatric aide
+panda
+physician assistant
+operations research analyst
+silver fox
+financial manager
+biomedical engineer
+physicistphysics teacher
+favor
+stationary engineer
+paralegal
+vampire
+medical transcriptionist
+ceiling tile installer
+law teacher
+motion picture projectionist
+psychiatrist
+adult education teacher
+transportation security screener
+tool filer
+conciliator
+dwarf
+audio-visual and multimedia collections specialist
+kangaroo
+plastic worker
+mule
+aircraft service technician
+desktop publisher
+convention planner
+witch
+agricultural sciences teacher
+billing and posting clerk
+postal service mail sorter
+literature teacher
+exhibit designer
+printing press operator
+petroleum technician
+skincare specialist
+entertainment attendant
+freight agent
+textile presser
+title searcher
+news vendor
+executive secretary
+dry-cleaning workerdrywall installer
+claims investigator
+bookkeeper
+protagonist
+policy processing clerk
+hamster
+raccoon
+geography teacher
+materials engineer
+booster
+food server
+timing device assembler
+tour guide
+traffic technician
+writer
+multimedia artist
+electrical installer
+mediator
+elevator installer
+layout worker
+home economics teacher
+tree pruner
+composer
+industrial production manager
+ape
+automotive mechanic
+hobgoblin
+soil scientist
+meat cutter
+alligator
+ordnance handling expert
+petroleum gauger
+weaving machine setter
+frog
+hand sewer
+hydra
+chinchilla
+film and video editor
+credit counselor
+travel guide
+slot supervisor
+tamping equipment operator
+plasterer
+computer support specialist
+environmental scientist
+textile bleaching operator
+marble setter
+power tool repairer
+market research analyst
+cashier
+terrazzo worker
+chimpanzee
+engine assembler
+sylph
+payroll clerk
+teacher assistant
+armadillo
+rabbit
+child social worker
+coyote
+library technician
+sculptor
+respiratory therapy technician
+forensic science technician
+bartender
+geographer
+clinical psychologist
+foundry coremaker
+athlete
+mountain goat
+social science research assistant
+cat
+pedicurist
+fabric mender
+biophysicist
+occupational therapy aide
+agricultural technician
+machinist
+locomotive engineer
+secondary education teacher
+agricultural engineer
+dressmaker
+boyfriend
+watch repairer
+tire changertire repairer
+light truck driver
+dental hygienist
+emergency medical technician
+producer
+admirer
+social worker
+waiter
+agent
+history teacher
+concierge
+surveyor
+chimera
+compliance officer
+boiler operator
+ATM machine repairer
+photographic processing machine operator
+streetcar operator
+graphic designer
+lamb
+hog
+pipelayer
+industrial engineering technician
+auto damage insurance appraiser
+real estate broker
+rhinoceros
+coatroom attendant
+chief executive
+hydrologist
+meeting planner
+subway operator
+elephant
+food preparation worker
+cheetah
+postal service clerk
+goat
+pediatrician
+music director
+designer
+occupational therapy assistant
+truck mechanic
+automotive and watercraft service attendant
+brazer
+outdoor power equipment mechanic
+promoter
+landscape architect
+radiation therapist
+geological technician
+model maker
+slaughterer
+merman
+data entry keyer
+obstetrician
+avionics technician
+upholsterer
+mixing machine setter
+medical laboratory technologist
+wildlife biologist
+platypus
+spectre
+political science teacher
+carpet installer
+furnishings worker
+electrical power-line installer
+dredge operator
+tobacco roasting machine operator
+residential advisor
+wholesale buyer
+hedgehog
+instructional coordinator
+stonemason
+electrical equipment assembler
+metal caster
+reinforcing iron worker
+archeologist
+fire inspector
+food scientist
+radiologic technician
+magistrate
+reptile
+cook
+architectural manager
+agricultural inspector
+ewe
+interpreter
+caster
+conveyor operator
+operating engineer
+middle school teacher
+ambulance driver
+muskrat
+switch operator
+air traffic controller
+nymph
+switchboard operator
+gazelle
+fitness studies teacher
+turning machine tool operator
+satyr
+imp
+tower operator
+tire builder
+civil engineer
+farmer
+embalmer
+nonfarm animal caretaker
+budget analyst
+social scientist
+industrial machinery mechanic
+qualifier
+computer science teacher
+hunter
+salamander
+electric motor repairer
+hostler
+pegasus
+giraffe
+snake
+air conditioning installer
+pipefitter
+personal chef
+purchasing manager
+teller
+craft artist
+government program eligibility interviewer
+marine oiler
+street vendor
+dingo
+garment presser
+school social worker
+lodging manager
+artist
+paving equipment operator
+curator
+postal service mail processing machine operator
+clinical laboratory technologist
+administrative services manager
+pile-driver operator
+fence erector
+space scientist
+print binding worker
+drilling machine tool operator
+wood patternmaker
+turtle
+plant scientist
+home entertainment installer
+pesticide handler
+gas compressor
+home health aide
+fish
+mail clerk
+property manager
+recreation worker
+zebra
+special education teacher
+coil finisher
+medical services manager
+hippopotamus
+troll
+golem
+public relations specialist
+gila monster
+forging machine setter
+makeup artist
+agricultural equipment operator
+textile knitting machine setter
+bill and account collector
+mobile heavy equipment mechanic
+wolverine
+sheriff's patrol officer
+mate
+messenger
+landscaping worker
+hand polishing worker
+retail salesperson
+mining engineer
+stock mover
+gaming cage worker
+bench carpenter
+chupacabra
+apparel patternmaker
+hairdresser
+camera operator
+counseling psychologist
+mine shuttle car operator
+technical writer
+wyvern
+hazardous materials removal worker
+information systems manager
+monkey
+fashion designer
+dishwasher
+power plant operator
+rail yard engineer
+financial examiner
+intercity bus driver
+telemarketer
+lemur
+decorating worker
+coating worker
+frost giant
+motorboat mechanic
+agricultural worker
+animal scientist
+postsecondary teacher
+porpoise
+waitress
+ghast
+farmworker
+religion teacher
+audiologist
+school bus driver
+telephone operator
+rail car repairer
+sheet metal worker
+log grader
+sailor
+radiologic technologist
+medical scientist
+manufactured building installer
+financial analyst
+chemical engineer
+engineer
+sheep
+horse
+champion
+blockmason
+interior designer
+historian
+accountant
+explosives worker
+checker
+molder
+sociology teacher
+escort
+podiatrist
+prepress technician
+animal control worker
+signal operator
+grizzly bear
+mermaid
+precious stone worker
+traffic clerk
+dental assistant
+industrial truck operator
+courier
+teacher
+title abstractor
+music teacher
+aerospace engineering technician
+prairie dog
+dentist
+office clerk
+shampooer
+surfacing equipment operator
+manticore
+goblin
+furniture finisher
+flight attendant
+food science technician
+heating mechanic
+sales manager
+drama teacher
+social work teacher
+marketing manager
+freight mover
+preschool teacher
+literacy teacher
+advertising manager
+naval architect
+construction manager
+real estate manager
+atmospheric scientist
+bridge and lock tender
+architect
+friend
+lover
+agricultural manager
+counselor
+impala
+anthropologist
+nuclear medicine technologist
+donkey
+mink
+angel
+structural iron worker
+chipmunk
+actuary
+tax examiner
+hairstylist
+hippogriff
+radio announcer
+rental clerk
+audio and video equipment technician
+musician
+track switch repairer
+receptionist
+refrigeration installer
+locomotive firer
+dragon
+koala
+insulation worker
+medical appliance technician
+brickmason
+health information technician
+tax preparer
+cafeteria attendant
+amusement machine servicer
+sports entertainer
+fine artist
+recreational therapist
+judicial law clerk
+architectural drafter
+athletic trainer
+broadcast technician
+diagnostic medical sonographer
+cardiovascular technician
+hand packager
+power distributor
+fast food cook
+hand laborer
+extraction worker
+tapir
+agricultural sorter
+tax collector
+refrigeration mechanic
+measurer
+rolling machine tender
+cooling equipment operator
+translator
+repair worker
+mine cutting machine operator
+polar bear
+public relations manager
+signal repairer
+librarian
+health specialties teacher
+model
+head cook
+mathematical science teacher
+plumber
+hoist and winch operator
+occupational therapist
+heating installer
+apparel worker
+pharmacist
+dog
+hyena
+information research scientist
+parking enforcement worker
+logging equipment operator
+refuse collector
+computer network architect
+skunk
+detective
+kettle operator
+shipmate
+statistical assistant
+physical therapist assistant
+boilermaker
+adjudicator
+gaming manager
+childcare worker
+typist
+art teacher
+retail buyer
+art director
+demonstrator
+mechanical door repairer
+fish and game warden
+kobold
+merchandise displayer
+economist
+supporter
+material mover
+sawing machine operator
+foreign language teacher
+cutting machine operator
+vocational counselor
+interviewer
+epidemiologist
+vending machine servicer
+emergency management director
+jailer
+floor sander
+police officer
+radio equipment installer
+cougar
+usher
+urban planner
+machine feeder
+roustabout
+oral surgeon
+customer service representative
+derrick operator
+steamfitter
+insurance claims clerk
+porcupine
+lifeguard
+radio operator
+computer systems analyst
+record clerk
+medical equipment repairer
+ophthalmic laboratory technician
+bear
+software engineer
+gas pumping station operator
+cargo agent
+conservator
+buyer
+illustrator
+legal secretary
+social service manager
+industrial engineer
+operations manager
+bat
+petroleum refinery operator
+bugbear
+tank car loader
+sound engineering technician
+gorgon
+set designer
+correctional officer
+floor layer
+materials scientist
+priest
+bison
+tuner
+claims adjuster
+ghoul
+forest fire inspector
+library assistant
+septic tank servicer
+choreographer
+museum technician
+telecommunications equipment installer
+pharmacy technician
+ticket agent
+information security analyst
+sales engineer
+lion
+bellhop
+filling machine operator
+massage therapist
+transportation equipment painter
+building inspector
+personal financial advisor
+aerobics instructor
+cement masonchanneling machine operator
+puma
+basic education teacher
+sales representative
+petroleum engineer
+marriage therapist
+speech-language pathologist
+reporter
+blending machine operator
+forest fire prevention specialist
+packaging machine operator
+web developer
+forestry teacher
+vocational education teacher
+nursing instructor
+loan interviewer
+baboon
+shoe machine operator
+human resources manager
+product promoter
+cartographer
+physical therapist
+die maker
+airline pilot
+recyclable material collector
+roof bolter
+financial services sales agent
+securities sales agent
+orthodontist
+psychiatric technician
+shipping clerk
+farm advisor
+veterinary technician
+succubus
+magistrate judge
+newt
+fabric patternmaker
+pesticide sprayer
+buster
+cow
+metal-refining furnace tender
+fundraising manager
+countenance
+woodworker
+psychology teacher
+farm equipment mechanic
+computer hardware engineer
+security system installer
+stucco mason
+electrical engineer
+family practitioner
+religious activities director
+cellular equipment installer
+kiln operator
+electrician
+motorboat operator
+cyclop
+tool grinder
+gopher
+registered nurse
+credit checker
+dragline operator
+production clerk
+compensation and benefits manager
+weasel
+insurance underwriter
+jeweler
+adhesive bonding machine tender
+trapper
+selkie
+roofer
+maid
+word processor
+new accounts clerk
+automotive glass installer
+photogrammetrist
+reindeer
+rail-track laying equipment operator
+family social worker
+yak
+nuclear engineer
+rancher
+textile worker
+training and development manager
+personal care aide
+stock clerk
+maintenance painter
+squirrel
+gaming booth cashier
+tiger
+lamassu
+general practitioner
+faun
+broadcast news analyst
+bull
+instructor
+medical assistant
+fire investigator
+wildcat
+surgical technologist
+physician
+postal service mail carrier
+conservation scientist
+kappa
+hostess
+valkyrie
+behavioral disorder counselor
+rat
+rigger
+fish cutter
+mobile home installer
+lizard
+hotel desk clerk
+dryad
+cutter
+marine engineer
+floral designer
+aircraft cargo handling supervisor
+dressing room attendant
+terrazzo finisher
+mental health counselor
+railroad conductor
+cosmetologist
+segmental paver
+demon
+ground hog
+nursing aide
+tractor operator
+beaver
+inspector
+plant operator
+mouse
+continuous mining machine operator
+laundry worker
+chauffeur
+metal patternmaker
+licensed vocational nurse
+revenue agent
+author
+sociologist
+delivery services driver
+substance abuse counselor
+procurement clerk
+butcher
+agricultural grader
+clinical laboratory technician
+griffon
+capybara
+dietetic technician
+yeti
+prosthetist
+pal
+correspondence clerk
+animal breeder
+yardmaster
+gaming dealer
+ship engineer
+biochemist
+hand packer
+rotary drill operator
+leopard
+earth driller
+director
+befriend
+barber
+forester
+unicorn
+whale
+sorter
+bus mechanic
+conservation science teacher
+social service assistant
+database administrator
+correspondent
+undertaker
+werewolf
+coin machine servicer
+garment mender
+bailiff
+answering service operator
+auditor
+forest worker
+refractory materials repairer
+genie
+court reporter
+correctional treatment specialist
+cabinetmaker
+secretary
+precision instrument repairer
+ski patrol
+milling machine setter
+social sciences teacher
+fiberglass fabricator
+metal worker
+camel
+chemical plant operator
+construction inspector
+education administrator
+truck loader
+construction painter
+meter reader
+poltergeist
+geoscientist
+information clerk
+nursing teacher
+scaler
+photographer
+farm labor contractor
+management analyst
+hag
+solderer
+musical instrument repairer
+sampler
+law enforcement teacher
+geological engineer
+barback
+insurance sales agent
+millwright
+aerospace engineer
+ibex
+training and development specialist
+fire alarm system installer
+civil engineering technician
+brokerage clerk
+school psychologist
+administrative assistant
+legal assistant
+criminal investigator
+judge
+sasquatch
+substance abuse social worker
+tile setter
+mathematical technician
+crossing guard
+valve installer
+marmoset
+mathematician
+dancer
+furnace operator
+tower equipment installer
+fitness trainer
+walrus
+reinforcing rebar worker
+surveying technician
+food cooking machine operator
+criminal justice teacher
+ocelot
+natural sciences manager
+copy marker
+postmaster
+bicycle repairer
+astronomer
+engineering manager
+planing machine operator
+incubus
+mining safety engineer
+resort desk clerk
+mustang
+cost estimator
+economics teacher
+file clerk
+leather worker
+healthcare social worker
+acquaintance
+medical secretary
+phoenix
+biological technician
+shaper
+mummy
+sewing machine operator
+shoe worker
+funeral director
+fox
+archivist
+timekeeping clerk
+pharmacy aide
+diesel engine specialist
+conservation worker
+legislator
+paper goods machine setter
+structural steel worker
+minotaur
+line installer
+medical records technician
+gremlin
+mechanical engineering technician
+gaming investigator
+life scientist
+nuclear power reactor operator
+statistician
+centaur
+plastic patternmaker
+survey researcher
+zombie
+host
+occupational health and safety specialist
+structural metal fabricator
+dinkey operator
+commodities sales agent
+home management advisor
+semiconductor processor
+textile cutting machine setter
+licensed practical nurse
+tester
+mining service unit operator
+paperhanger
+gnome
+painting worker
+industrial-organizational psychologist
+air conditioning mechanic
+community service manager
+janitor
+wolf
+elementary school teacher
+ox
+leprechaun
+hand grinding worker
+pest control worker
+health and safety engineer
+gargoyle
+concrete finisher
+electro-mechanical technician
+food batchmaker
+order clerk
+occupational health and safety technician
+coil winder
+sports book runner
+dental laboratory technician
+private detective
+heavy truck driver
+railroad brake operator
+library science teacher
+poultry cutter
+executive administrative assistant
+motorcycle mechanic
+planning clerk
+zoologist
+real estate sales agent
+foreign literature teacher
+meat packer
+firefighter
+arbitrator
+medical laboratory technician
+prosthodontist
+community association manager
+recreation teacher
+editor
+security guard
+animal trainer
+draugr
+computer operator
+mental health social worker
+mapping technician
+pesticide applicator
+slicing machine tender
+mail superintendent
+funeral attendant
+food service manager
+metal pourer
+credit analyst
+singer
+purchasing agent
+pixie
+motel desk clerk
+funeral service manager
+elevator repairer
+gas plant operator
+otter
+dromedary
+chiropractor
+scout leader
+mechanical engineer
+claims examiner
+ship loader
+door-to-door sales worker
+industrial designer
+drier operator
+recreational vehicle service technician
+veterinarian
+title examiner
+djinn
+lynx
+fabricator
+parking lot attendant
+structural metal fitter
+pump operator
+computer systems administrator
+communications teacher
+guinea pig
+umpire
+physical therapist aide
+deer
+pig
+dyeing machine operator
+referee
+rail transportation worker
+lathe setter
+girlfriend
+rock splitter
+excavating operator
+mole
+mynah bird
+sprite
+favorer
+locker room attendant
+ship captain
+gaming change person
+kindergarten teacher
+anesthesiologist
+actor
+maintenance worker
+cockatrice
+travel clerk
+parakeet
+floor finisher
+receiving clerk
+safe repairer
+chemist
+heat treating equipment setter
+gaming surveillance officer
+boring machine tool tender
+event planner
+toad
+political scientist
+carpenter
+postal service mail processor
+aircraft mechanic
+office machine operator
+taxi driver
+airline copilot
+mail machine operator
+ghost
+regional planner
+sphinx
+groundskeeping worker
+health services manager
+baker
+laboratory animal caretaker
+gorilla
+civil drafter
+camera repairer
+gynecologist
+religious worker
+buffalo
+family therapist
+animator
+shrew
+wombat
+cafeteria cook
+wendigo
+short order cook
+woodchuck
+warg
+warthog
+faller
+cleaner
+groundskeeper
+meat trimmer
+fish trimmer
+glazier
+sewer pipe cleaner
+tree trimmer
+trimmer
+offbearer
+poultry trimmer
+window trimmer
+badger
+kraken
+aardvark
+antelope
+human resources assistant
+fiberglass laminator
+elf
+lich
+trim
+oni
+lobby attendant
+ogre
+canary
+seal
+nutritionist
+optometrist
+iguana
+giant
+homonculus
+dietitian
+sports performer
+logistician
+elemental
+oryx
+opossum
+finch
+clean
+siren
+graduate teaching assistant
+fisher
+attendant
+orc
+optician
+orthotist
+thunderbird
+harpy
+orderly
+orangutan
+mortician
+paramedic
+fairy
+ambulance dispatcher
+weigher
+blaster
+fire dispatcher
+power dispatcher
+locksmith
+wellwisher
+drafter
+police dispatcher
+electrical electronics drafter
+welder
+dispatcher
+wraith
+moose
+mongoose
+sloth
+etcher
+boar
+elk
+transit police
+railroad police
