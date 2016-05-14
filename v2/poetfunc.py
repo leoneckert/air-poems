@@ -151,7 +151,15 @@ def build_sentence():
 
 		# 's0': '#name.capitalize# and #name# are happy happy happy',
 		# 's1': '#actorSG.a.capitalize# and #name# are happy happy happy',
-		's0': '#adjective.a# #actorSG# and #adjective.a# #actorSG# do it #adverb#.',
+		# 's0': '#adjective.a# #actorSG# and #adjective.a# #actorSG# do it #adverb#.',
+		's0': '#name# #verbThird# #adverb#.',
+		's1': '#name# is #verbGer# #adverb#.',
+		's2': '#name# and #name# #verbInf# #adverb#.',
+		's3': '#name# and #name# #verbPast# #adverb#.',
+		's4': '#name# and #name# are #verbGer# #adverb#.',
+		# 's0': '#name# #verbPast# #adverb# and #name# #verbPast# #adverb#.',
+		# 's1': '#name# is #verbGer# #adverb# and #name# is #verbGer# #adverb#.',
+		# 's2': '#name# #verbThird# #adverb# and #name# #verbThird# #adverb#.',
 		# 's3': '#name.capitalize# and #actorSG.a# are happy happy happy',
 
 	    # 's0': '#nounS.a.capitalize# and #nounS.a# #verb# with #nounS.a#',
@@ -164,12 +172,22 @@ def build_sentence():
 
 	    'name': returnList("names") if hasData("names") > 0 else noData,
 	    'actorSG': returnList("actorsSG") if hasData("actorsSG") > 0 else noData,
+
+
+	    'verbInf': returnList("verbInf") if hasData("verbInf") > 0 else noData,
+	    'verbThird': returnList("verbThird") if hasData("verbThird") > 0 else noData,
+	    'verbGer': returnList("verbGer") if hasData("verbGer") > 0 else noData,
+	    'verbPast': returnList("verbPast") if hasData("verbPast") > 0 else noData,
+
+	    
 	    'adjective': returnList("adjectives") if hasData("adjectives") > 0 else noData,
-	    'obscene': returnList("obscenes") if hasData("obscenes") > 0 else noData,
-	    'adverb': returnList("adverbs") if hasData("adverbs") > 0 else noData
+	    'adverb': returnList("adverbs") if hasData("adverbs") > 0 else noData,
+
+	    'obscene': returnList("obscenes") if hasData("obscenes") > 0 else noData
+	    
 
 	}
-	numPennInRules = 5
+	numPennInRules = 9
 
 	grammar = tracery.Grammar(rules)
 	grammar.add_modifiers(base_english)

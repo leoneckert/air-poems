@@ -104,3 +104,4 @@
 [south#adverbs]
 [enter#adverbs]
 [ultra#adjectives]
+[bat#verbInf]

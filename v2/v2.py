@@ -2,13 +2,14 @@ import syssniff
 import snifffunc
 import poetfunc
 from pprint import pprint
-
-
 import string
 
+
 printable = set(string.printable)
-
-
+def formatSSID(ssid):
+	ssid = filter(lambda x: x in printable, ssid)
+	ssid = ssid.strip('#')
+	return ssid
 
 
 seenBefore = set()
@@ -23,17 +24,13 @@ def sniffing_handler(line):
 		MAC = elems[2]
 		ssid = elems[3]
 		# print ssid
-		ssid  = filter(lambda x: x in printable, ssid)
 
-		ssid = ssid.strip('#')
+		ssid = formatSSID(ssid)
+
 		if ssid not in seenBefore:
-			# ssid  = filter(lambda x: x in printable, ssid)
 			seenBefore.add(ssid)
 			poetfunc.getWordsInSsid(ssid)
-			# print ssid
-			# for l in ssid:
-			# 	print l
-			# print "\t\t", filter(lambda x: x in printable, ssid)
+
 
 
 
@@ -47,12 +44,6 @@ def Main():
 	syssniff.sniffloop(sniffing_handler)
 
 	# poetfunc.printAvailable()
-	# for i in range(30):
-	# 	poetfunc.build_sentence()
-	# 	poetfunc.build_sentence()
-	# 	poetfunc.build_sentence()
-	# 	poetfunc.build_sentence()
-	# 	poetfunc.build_sentence()
 
 
 if __name__ == '__main__':
