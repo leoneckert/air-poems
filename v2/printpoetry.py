@@ -1,4 +1,4 @@
-blackListExtendMode = False
+# blackListExtendMode = False
 blackListExtendMode = True
 
 def getTerminalSize():
@@ -78,22 +78,23 @@ def printp(poetry_data):
 	first = True
 	chunks_to_print = list()
 	string_to_prepend = ""
+	c = 0
 	for d in poetry_data:
 		if len(d) is 1:
 			if first:
-				first = False
 				string_to_prepend = "[" + d[0] + "]"
-			filler_elems = d[0].split()
-			if len(filler_elems) > 1:
-				# print filler_elems
+			else:
+				filler_elems = d[0].split()
+				if len(filler_elems) > 1:		
+					if c is len(poetry_data) - 1:
+						chunks_to_print[len(chunks_to_print)-1][0] = chunks_to_print[len(chunks_to_print)-1][0] + " [" + " ".join(filler_elems) + "]"
+					else:
+						cut_filler_here = len(filler_elems)/2
+						chunks_to_print[len(chunks_to_print)-1][0] = chunks_to_print[len(chunks_to_print)-1][0] + " [" + " ".join(filler_elems[:cut_filler_here]) + "]"
+						string_to_prepend = "[" + " ".join(filler_elems[cut_filler_here:]) + "]"
+				else:
+					chunks_to_print[len(chunks_to_print)-1][0] = chunks_to_print[len(chunks_to_print)-1][0] + " [" + filler_elems[0] + "]"
 
-				cut_filler_here = len(filler_elems)/2
-				
-				chunks_to_print[len(chunks_to_print)-1][0] = chunks_to_print[len(chunks_to_print)-1][0] + " [" + " ".join(filler_elems[:cut_filler_here]) + "]"
-				# print chunks_to_print[len(chunks_to_print)-1][0]
-				# print filler_elems[:cut_filler_here]
-
-				string_to_prepend = "[" + " ".join(filler_elems[cut_filler_here:]) + "]"
 
 
 		elif len(d) is 5:
@@ -111,12 +112,17 @@ def printp(poetry_data):
 				string_to_prepend = ""
 			chunks_to_print.append([string_to_print, offset])
 
+
+		c += 1
+		first = False
 	# if len(string_to_prepend) > 0:
 
 	# print chunks_to_print
 	for d in chunks_to_print:
 		print " "*(t_width/2 - d[1]),
 		print d[0]
+
+
 
 	print ""
 	for i in range(t_height/2 - line_length_of_poem/2 - 1):

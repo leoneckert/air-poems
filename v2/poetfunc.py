@@ -47,7 +47,7 @@ def initDicts():
 					if penn not in blacklist:
 						blacklist[penn] = set()
 					blacklist[penn].add(back_listed_word)
-	pprint(blacklist)
+	# pprint(blacklist)
 
 
 
@@ -148,10 +148,11 @@ def returnList(penn):
 
 def build_sentence():
 	rules = {
-		's0': '#name.capitalize# and #name# are happy happy happy',
-		's1': '#actorSG.a.capitalize# and #name# are happy happy happy',
-		's2': '#actorSG.a.capitalize# and #actorSG.a# are happy happy happy',
-		's3': '#name.capitalize# and #actorSG.a# are happy happy happy',
+
+		# 's0': '#name.capitalize# and #name# are happy happy happy',
+		# 's1': '#actorSG.a.capitalize# and #name# are happy happy happy',
+		's0': '#adjective.a# #actorSG# and #adjective.a# #actorSG# do it #adverb#.',
+		# 's3': '#name.capitalize# and #actorSG.a# are happy happy happy',
 
 	    # 's0': '#nounS.a.capitalize# and #nounS.a# #verb# with #nounS.a#',
 	    # 's1': '#name# and #name# #verb# with #nounS.a#',
@@ -162,13 +163,13 @@ def build_sentence():
 
 
 	    'name': returnList("names") if hasData("names") > 0 else noData,
-	    'actorSG': returnList("actorsSG") if hasData("actorsSG") > 0 else noData
-
-
-	    # 'adjective': returnList("JJ") if hasData("JJ") > 0 else noData
+	    'actorSG': returnList("actorsSG") if hasData("actorsSG") > 0 else noData,
+	    'adjective': returnList("adjectives") if hasData("adjectives") > 0 else noData,
+	    'obscene': returnList("obscenes") if hasData("obscenes") > 0 else noData,
+	    'adverb': returnList("adverbs") if hasData("adverbs") > 0 else noData
 
 	}
-	numPennInRules = 2
+	numPennInRules = 5
 
 	grammar = tracery.Grammar(rules)
 	grammar.add_modifiers(base_english)
