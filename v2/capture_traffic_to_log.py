@@ -34,21 +34,21 @@ def channel_controller(c, c_hop_interval):
 
 
 
-def sniffloop(handle_function):
+def sniffloop():
     global current_channel
     count = 10
     alreadyInspected = set()
     current_channel = channel_range[-1]
     #next line makes all the difference, making sure the hoping works by disassociating fro any network before start:
     subprocess.call("airport -z", shell=True)		# DEactivate for TESTING
-
     for line in run("./bps_v1"):		# DEactivate for TESTING
     # for line in open("no_realtime_experiment_log.log", "r"):  # activate for TESTING
 		#next line for channel hoping:
-		count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
-		line = line.strip()
+        count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
+        line = line.strip()
+        print line
 
-		handle_function(line)
+
 
 
 # GLOBAL variables:
@@ -58,5 +58,5 @@ channel_hop_interval = 50
 
 
 
-
+sniffloop()
 

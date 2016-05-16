@@ -1,0 +1,31 @@
+open
+opening
+entryway
+walkway
+passage
+pit
+fire pole
+conveyor
+avenue
+fire escape
+secret door
+exit
+corridor
+hatch
+gate
+stairway
+hallway
+entrance
+door
+staircase
+track
+ladder
+trail
+step
+passageway
+path
+tunnel
+doorway
+trapdoor
+foyer
+dumbwaiter

@@ -1,0 +1,108 @@
+alcove
+lobby
+salon
+map room
+corner office
+conversation pit
+weight room
+assembly room
+nursery
+bedroom
+backroom
+office
+airport lounge
+hotel room
+throne room
+boardroom
+washroom
+tearoom
+sitting room
+water closet
+courtroom
+basement
+electrical room
+waiting room
+chapel
+conservatory
+game room
+transmission control room
+clean room
+changing room
+garage
+auditorium
+attic
+library
+dining room
+motel room
+closet
+conference room
+dormitory
+mud room
+showroom
+living room
+pool room
+boiler room
+antechamber
+studio
+kitchen
+playroom
+study
+caldarium
+atelier
+storm cellar
+anatomical theatre
+rec room
+mailroom
+anteroom
+cloakroom
+tv room
+cafeteria
+cry room
+bathroom
+breakfast nook
+dressing room
+wiring closet
+workshop
+schoolroom
+armory
+computer lab
+breezeway
+cabin
+loft
+gym
+wine cellar
+pantry
+fitting room
+panic room
+boudoir
+locker room
+emergency room
+den
+stockroom
+sunroom
+staff room
+family room
+engine room
+fallout shelter
+common room
+darkroom
+control room
+newsroom
+guest room
+lounge
+parlor
+laundry room
+cold room
+anechoic chamber
+billiard room
+cellar
+ballroom
+sauna
+classroom
+aircraft cabin
+drawing room
+print room
+equipment room
+foyer
+utility room
+aerary

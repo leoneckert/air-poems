@@ -1,0 +1,831 @@
+clear
+Bar
+Bus Stop
+keep
+IT Services
+Athletics & Sports
+Building
+clearing
+Rafting
+Border Crossing
+College History Building
+Hunting Supply
+shore
+Train
+Well
+nowhere
+shop
+sanctuary
+office
+Boutique
+asylum
+Laundromat
+Cricket Ground
+Gym
+mosque
+lake
+abbey
+passage
+wood
+Aquarium
+crossroad
+hill
+lookout
+Cocktail Bar
+evening
+garden
+Rock Climbing Spot
+Stoop Sale
+enclave
+void
+Acupuncturist
+Volcano
+intersection
+twilight
+day
+bank
+chapel
+bar
+Varenyky restaurant
+pillar
+morning
+tunnel
+Bed & Breakfast
+trap
+night
+tower
+river
+Event
+Courthouse
+square
+meadow
+Arcade
+Hospital
+library
+Auto Garage
+Platform
+State
+street
+sea
+cathedral
+dawn
+sunrise
+dungeon
+darkness
+Planetarium
+spire
+Pub
+safety
+skyscraper
+Intersection
+Chinese Breakfast Place
+temple
+Chiropractor
+Racetrack
+pub
+water
+base
+Steakhouse
+path
+bazaar
+refuge
+Dive Spot
+yard
+Palace
+Bookstore
+island
+study
+plaza
+Other Event
+College Cricket Pitch
+connection
+workplace
+Veterinarian
+castle
+Rugby Pitch
+road
+wilderness
+brook
+ATM
+Performing Arts Venue
+Synagogue
+Stadium
+church
+market
+creek
+turret
+Lottery Retailer
+Fishing Spot
+Street Food Gathering
+sunlight
+Newsstand
+workshop
+maze
+minaret
+store
+citadel
+fork
+Other Nightlife
+labyrinth
+Casino
+park
+trail
+walkway
+Neighborhood
+haven
+Gun Range
+hideout
+tavern
+nothingness
+Market
+Parking
+Snack Place
+fortress
+Conference
+bridge
+stream
+Convention
+Breakfast Spot
+inn
+home
+pond
+ship
+pit
+airplane
+Dive Bar
+mountain
+synagogue
+Gym Pool
+Animal Shelter
+parish
+cave
+Supermarket
+field
+Farm
+shrine
+forest
+wasteland
+sunset
+beach
+belfry
+Diner
+dusk
+shelter
+crag
+Surf Spot
+Nightclub
+Nightlife Spot
+peak
+arch
+desert
+pool
+cliff
+Outdoor Sculpture
+Taxi
+lane
+Salad Place
+Frozen Yogurt
+Distillery
+ocean
+boat
+edge
+jail
+jungle
+Bathing Area
+Car Dealership
+Christmas Market
+Home (private)
+Residential Building (Apartment / Condo)
+Taxi Stand
+hold
+Gymnastics Gym
+Daycare
+Laboratory
+Non-Profit
+Preschool
+daytime
+Warehouse
+Locksmith
+Other Great Outdoors
+Pastelaria
+States & Municipalities
+Stables
+Tapiocaria
+woods
+crossroads
+Professional & Other Places
+College Arts Building
+Trade School
+Assisted Living
+West-Ukrainian Restaurant
+Belarusian Restaurant
+Scenic Lookout
+Sake Bar
+College Engineering Building
+Cretan Restaurant
+Event Service
+Buddhist Temple
+Fireworks Store
+Skate Park
+Train Station
+Tibetan Restaurant
+Sushi Restaurant
+Hotel Bar
+Campaign Office
+Astrologer
+Martial Arts Dojo
+Southern / Soul Food Restaurant
+Jewelry Store
+Mongolian Restaurant
+Eye Doctor
+Cuban Restaurant
+Shaanxi Restaurant
+College Hockey Rink
+Marijuana Dispensary
+Souvlaki Shop
+Filipino Restaurant
+Hakka Restaurant
+Meeting Room
+Private School
+Night Market
+Coffee Shop
+Gourmet Shop
+Gujarati Restaurant
+Shipping Store
+Campground
+Spa
+Candy Store
+Peking Duck Restaurant
+Frame Store
+Austrian Restaurant
+Festival
+Housing Development
+Rock Club
+General Entertainment
+Tapas Restaurant
+Nail Salon
+Boarding House
+Fishing Store
+Bubble Tea Shop
+Water Park
+Maharashtrian Restaurant
+Bridal Shop
+College Baseball Diamond
+Mattress Store
+Fire Station
+Hardware Store
+Public Art
+Art Museum
+Opera House
+Funeral Home
+Nudist Beach
+Gozleme Place
+Moving Target
+English Restaurant
+Swiss Restaurant
+Electronics Store
+Dog Run
+Internet Cafe
+Pedestrian Plaza
+Czech Restaurant
+Hotel Pool
+Event Space
+Donut Shop
+High School
+South Indian Restaurant
+College Quad
+Ukrainian Restaurant
+Golf Course
+Jewish Restaurant
+Mountain
+Manchu Restaurant
+Caucasian Restaurant
+Kofte Place
+Australian Restaurant
+Cajun / Creole Restaurant
+Ski Area
+Hookah Bar
+Kerala Restaurant
+Airport Tram
+Used Bookstore
+Light Rail
+North Indian Restaurant
+Arepa Restaurant
+Dry Cleaner
+Mental Health Office
+Baby Store
+Driving School
+Manti Place
+Salsa Club
+Toll Booth
+Whisky Bar
+Monument / Landmark
+Bowling Green
+Library
+Pool
+Scandinavian Restaurant
+Antique Shop
+Punjabi Restaurant
+Beach Bar
+Indian Chinese Restaurant
+Motel
+Thai Restaurant
+Resort
+Dessert Shop
+Brewery
+Food Court
+Portuguese Restaurant
+Mughlai Restaurant
+Bus Station
+Dhaba
+Watch Repair Shop
+Paper / Office Supplies Store
+Fujian Restaurant
+Mobile Phone Shop
+Sports Club
+EV Charging Station
+Deli / Bodega
+Balinese Restaurant
+Beer Garden
+Middle School
+Russian Restaurant
+Discount Store
+Department Store
+Kids Store
+Costume Shop
+American Restaurant
+Speakeasy
+Herbs & Spices Store
+Track Stadium
+Theme Park
+Multiplex
+Shandong Restaurant
+Molecular Gastronomy Restaurant
+Sorority House
+Roller Rink
+Fast Food Restaurant
+Sweet Shop
+Student Center
+Italian Restaurant
+Tailor Shop
+Persian Restaurant
+French Restaurant
+Pakistani Restaurant
+Go Kart Track
+Modern Greek Restaurant
+Brazilian Restaurant
+Buffet
+College Science Building
+Travel Agency
+Plane
+Middle Eastern Restaurant
+Japanese Restaurant
+Football Stadium
+Home Service
+College Academic Building
+Travel & Transport
+Pizza Place
+Music Store
+Perfume Shop
+Dongbei Restaurant
+Gift Shop
+Dumpling Restaurant
+Kebab Restaurant
+Multicuisine Indian Restaurant
+Magirio
+College Technology Building
+College Cafeteria
+Hockey Field
+Udupi Restaurant
+Afghan Restaurant
+Disc Golf
+Jiangsu Restaurant
+Grocery Store
+Hubei Restaurant
+Creperie
+College Tennis Court
+Museum
+Butcher
+Romanian Restaurant
+Apres Ski Bar
+South American Restaurant
+Outlet Store
+Hyderabadi Restaurant
+Print Shop
+Ouzeri
+Betawinese Restaurant
+Airport Terminal
+Luggage Store
+Pier
+Comfort Food Restaurant
+Turkish Restaurant
+Town
+Theater
+University
+Plaza
+Goiano Restaurant
+College Gym
+Mall
+Peruvian Restaurant
+Modern European Restaurant
+Parade
+Shoe Store
+Toy / Game Store
+College Track
+College Administrative Building
+Nursery School
+Adult Boutique
+Blini House
+Andhra Restaurant
+Huaiyang Restaurant
+Irish Pub
+College Lab
+Goan Restaurant
+Wings Joint
+Art Gallery
+Macanese Restaurant
+Climbing Gym
+Street Fair
+Fried Chicken Joint
+Bowling Alley
+Bougatsa Shop
+Tea Room
+Ethiopian Restaurant
+Flight School
+Piano Bar
+Northern Brazilian Restaurant
+Fish & Chips Shop
+Rajasthani Restaurant
+Music Venue
+Kafenio
+Rental Car Location
+Hotpot Restaurant
+Smoke Shop
+Harbor / Marina
+Empanada Restaurant
+Alternative Healer
+Military Base
+Gym / Fitness Center
+Photography Lab
+Prayer Room
+Laser Tag
+Camera Store
+Tanning Salon
+Cigkofte Place
+Cycle Studio
+Salon / Barbershop
+Pet Store
+Emergency Room
+Record Shop
+Food & Drink Shop
+Automotive Shop
+College Communications Building
+Town Hall
+College Basketball Court
+Flower Shop
+Field
+Real Estate Office
+Arts & Crafts Store
+Food
+Pet Service
+Guizhou Restaurant
+Tourist Information Center
+Religious School
+Souvenir Shop
+Southern Brazilian Restaurant
+Shanghai Restaurant
+Badminton Court
+Manadonese Restaurant
+Tram
+Warehouse Store
+Cambodian Restaurant
+Auditorium
+Bridge
+Recording Studio
+Lingerie Store
+Gay Bar
+Women's Store
+History Museum
+Cafeteria
+Hawaiian Restaurant
+Other Repair Shop
+Bengali Restaurant
+Wine Bar
+Arts & Entertainment
+Shanxi Restaurant
+Shrine
+Botanical Garden
+Baseball Field
+TV Station
+Indian Restaurant
+Road
+Video Game Store
+Meze Restaurant
+College Residence Hall
+Ski Lodge
+German Restaurant
+Bagel Shop
+Beer Store
+Piercing Parlor
+Summer Camp
+Hot Dog Joint
+Ice Cream Shop
+College Stadium
+Tech Startup
+River
+Financial or Legal Service
+Hunan Restaurant
+Shoe Repair
+Kosher Restaurant
+Eastern European Restaurant
+Cupcake Shop
+Cheese Shop
+Southeastern Brazilian Restaurant
+Board Shop
+Concert Hall
+Police Station
+Rest Area
+Indie Theater
+Shop & Service
+Zoo
+Vineyard
+Fruit & Vegetable Store
+Tennis Court
+Jiangxi Restaurant
+Champagne Bar
+Cosmetics Shop
+Dive Shop
+Garden Center
+Dosa Place
+Monastery
+Park
+Halal Restaurant
+Advertising Agency
+Karaoke Bar
+Miscellaneous Shop
+Smoothie Shop
+College Math Building
+Hungarian Restaurant
+Bus Line
+Taiwanese Restaurant
+Airport Gate
+Caribbean Restaurant
+Recycling Facility
+Tunnel
+Clothing Store
+Cantonese Restaurant
+Tree
+New American Restaurant
+African Restaurant
+Subway
+Farmers Market
+Roof Deck
+Burrito Place
+Strip Club
+Circus
+Ski Chalet
+Korean Restaurant
+Country Dance Club
+Beijing Restaurant
+Lawyer
+General Travel
+Health Food Store
+Hong Kong Restaurant
+Lounge
+Forest
+Food Truck
+Basketball Court
+Temple
+Betting Shop
+Grilled Meat Restaurant
+Furniture / Home Store
+Transportation Service
+Trail
+Capitol Building
+Pawn Shop
+Ramen / Noodle House
+Bike Shop
+Soccer Stadium
+Thrift / Vintage Store
+Drugstore / Pharmacy
+Fondue Restaurant
+Tsipouro Restaurant
+Henan Restaurant
+Empada House
+Language School
+Squash Court
+College Theater
+Latin American Restaurant
+Health & Beauty Service
+Circus School
+College Rec Center
+Yunnan Restaurant
+College Auditorium
+Himalayan Restaurant
+Dance Studio
+Flea Market
+College Library
+Church
+Massage Studio
+Medical School
+City
+Lighthouse
+Embassy / Consulate
+Polish Restaurant
+Tennis
+Taverna
+Factory
+Parsi Restaurant
+Pelmeni House
+Carpet Store
+Prison
+Beach
+Mineiro Restaurant
+Sandwich Place
+Fish Market
+Medical Center
+Comedy Club
+Garden
+Music School
+Social Club
+Gluten-free Restaurant
+Check Cashing Service
+Hot Spring
+Mediterranean Restaurant
+Spiritual Center
+Bath House
+Residence
+Paella Restaurant
+Airport
+Winery
+Baseball Stadium
+Gaming Cafe
+Meatball Place
+Hindu Temple
+Home Cooking Restaurant
+Radio Station
+Wine Shop
+Storage Facility
+Taco Place
+Video Store
+Doner Restaurant
+Moroccan Restaurant
+Government Building
+Distribution Center
+Mac & Cheese Joint
+Basketball Stadium
+Argentinian Restaurant
+Boxing Gym
+Belgian Restaurant
+Playground
+Xinjiang Restaurant
+Yoga Studio
+Conference Room
+Cable Car
+Bistro
+Music Festival
+Big Box Store
+Central Brazilian Restaurant
+Fraternity House
+Post Office
+Ski Chairlift
+Comic Shop
+Malaysian Restaurant
+Szechuan Restaurant
+Recreation Center
+Convenience Store
+Community Center
+Restaurant
+Baiano Restaurant
+Island
+Hockey Arena
+Pool Hall
+Bakery
+Chaat Place
+Northeastern Brazilian Restaurant
+Pop-Up Shop
+Pie Shop
+Stationery Store
+Bike Rental / Bike Share
+Doctor's Office
+College Classroom
+Recruiting Agency
+Nature Preserve
+Outdoors & Recreation
+Bank
+Hainan Restaurant
+Gun Shop
+Toll Plaza
+Chettinad Restaurant
+Mosque
+Convention Center
+Gas Station / Garage
+Jazz Club
+Chinese Aristocrat Restaurant
+Knitting Store
+Movie Theater
+College & University
+Science Museum
+Awadhi Restaurant
+Javanese Restaurant
+College Football Field
+Motorcycle Shop
+Sporting Goods Shop
+Greek Restaurant
+School
+General College & University
+Volleyball Court
+Theme Park Ride / Attraction
+Elementary School
+Outdoor Supply Store
+Hobby Shop
+College Soccer Field
+Liquor Store
+Acehnese Restaurant
+Fair
+Northeast Indian Restaurant
+Accessories Store
+Dentist's Office
+Fish Taverna
+Tatar Restaurant
+Jain Restaurant
+Hostel
+Seafood Restaurant
+Gastropub
+Zhejiang Restaurant
+Patsa Restaurant
+Padangnese Restaurant
+Chocolate Shop
+Optical Shop
+Anhui Restaurant
+Vegetarian / Vegan Restaurant
+Credit Union
+Voting Booth
+Burger Joint
+Cultural Center
+Hotel
+Asian Restaurant
+Spanish Restaurant
+Mini Golf
+Chinese Restaurant
+Sri Lankan Restaurant
+Coworking Space
+Indie Movie Theater
+Borek Place
+Boat or Ferry
+Soccer Field
+Tattoo Parlor
+College Bookstore
+Castle
+Mexican Restaurant
+Pide Place
+Office
+Business Service
+Trailer Park
+Organic Grocery
+County
+National Park
+Acai House
+Sundanese Restaurant
+Karnataka Restaurant
+Paintball Field
+Churrascaria
+Falafel Restaurant
+Skating Rink
+Cemetery
+Lake
+Sports Bar
+Imperial Restaurant
+City Hall
+Men's Store
+Laundry Service
+Indonesian Restaurant
+Track
+Street Art
+Design Studio
+Leather Goods Store
+Vietnamese Restaurant
+Travel Lounge
+Airport Food Court
+Sculpture Garden
+Dim Sum Restaurant
+Irani Cafe
+Community College
+Soup Place
+Fabric Shop
+Country
+Car Wash
+Ski Trail
+Tianjin Restaurant
+Swim School
+Historic Site
+Law School
+Airport Lounge
+RV Park
+Juice Bar
+Street
+BBQ Joint
+Village
+Construction & Landscaping
+Club House
+Meyhane

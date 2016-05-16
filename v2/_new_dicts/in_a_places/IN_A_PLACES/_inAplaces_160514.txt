@@ -1,0 +1,161 @@
+aerary
+aircraft cabin
+aircraftcabin
+airport lounge
+airportlounge
+alcove
+anatomical theatre
+anatomicaltheatre
+anechoic chamber
+anechoicchamber
+antechamber
+anteroom
+armory
+assembly room
+assemblyroom
+atelier
+attic
+auditorium
+backroom
+ballroom
+basement
+bathroom
+bedroom
+billiard room
+billiardroom
+boardroom
+boiler room
+boilerroom
+boudoir
+breakfast nook
+breakfastnook
+breezeway
+cabin
+cafeteria
+caldarium
+cellar
+changing room
+changingroom
+chapel
+classroom
+clean room
+cleanroom
+cloakroom
+closet
+cold room
+coldroom
+common room
+commonroom
+computer lab
+computerlab
+conference room
+conferenceroom
+conservatory
+control room
+controlroom
+conversation pit
+conversationpit
+corner office
+corneroffice
+courtroom
+cry room
+cryroom
+darkroom
+den
+dining room
+diningroom
+dormitory
+drawing room
+drawingroom
+dressing room
+dressingroom
+electrical room
+electricalroom
+emergency room
+emergencyroom
+engine room
+engineroom
+equipment room
+equipmentroom
+fallout shelter
+falloutshelter
+family room
+familyroom
+fitting room
+fittingroom
+foyer
+game room
+gameroom
+garage
+guest room
+guestroom
+gym
+hotel room
+hotelroom
+kitchen
+laundry room
+laundryroom
+library
+living room
+livingroom
+lobby
+locker room
+lockerroom
+loft
+lounge
+mailroom
+map room
+maproom
+motel room
+motelroom
+mud room
+mudroom
+newsroom
+nursery
+office
+panic room
+panicroom
+pantry
+parlor
+playroom
+pool room
+poolroom
+print room
+printroom
+rec room
+recroom
+salon
+sauna
+schoolroom
+showroom
+sitting room
+sittingroom
+staff room
+staffroom
+stockroom
+storm cellar
+stormcellar
+studio
+study
+sunroom
+tearoom
+throne room
+throneroom
+transmission control room
+transmissioncontrolroom
+tv room
+tvroom
+utility room
+utilityroom
+waiting room
+waitingroom
+washroom
+water closet
+watercloset
+weight room
+weightroom
+wine cellar
+winecellar
+wiring closet
+wiringcloset
+workshop

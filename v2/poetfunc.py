@@ -41,12 +41,13 @@ def initDicts():
 					# print word
 					# print word[1:-1]
 					# print word[1:-1].split("#")
-					back_listed_word = word[1:-1].split("#")[0]
-					penn = word[1:-1].split("#")[1]
-					# print back_listed_word, penn
-					if penn not in blacklist:
-						blacklist[penn] = set()
-					blacklist[penn].add(back_listed_word)
+					if len(word) > 0:
+						back_listed_word = word[1:-1].split("#")[0]
+						penn = word[1:-1].split("#")[1]
+						# print back_listed_word, penn
+						if penn not in blacklist:
+							blacklist[penn] = set()
+						blacklist[penn].add(back_listed_word)
 	# pprint(blacklist)
 
 
@@ -147,16 +148,56 @@ def returnList(penn):
 
 
 def build_sentence():
-	rules = {
+	rules = {	
+		's0': '#pluralActor# #pluralVerb#.',
+		's1': '#pluralActor# #pluralVerb# #adverb#.',
+		's10': '#pluralActor# #pluralVerb# #less# than #pluralActor#.',
+		's11': '#pluralActor# #pluralVerb# #less# than #singluarActor#.',
+		's14': '#pluralActor# #met# with #singluarActor#.',
+		's15': '#pluralActor# #met# with #pluralActor#.',
+		's18': '#pluralActor# #point# at #singluarActor#.',
+		's19': '#pluralActor# #point# at #pluralActor#.',
+		's20': '#pluralActor# #let# #singluarActor# be #adjective#.',
+		's21': '#pluralActor# #let# #pluralActor# be #adjective#.',
 
-		# 's0': '#name.capitalize# and #name# are happy happy happy',
+		's2': '#pluralActor# #pluralVerb# #adverb# #location#.',
+		's3': '#obscene# ! #pluralActor# #pluralVerb# #adverb# #location#.',
+
+		's4': '#singluarActor# #singularVerb#.',
+		's5': '#singluarActor# #singularVerb# #adverb#.',
+		's12': '#singluarActor# #singularVerb# #less# than #pluralActor#.',
+		's13': '#singluarActor# #met# with #singluarActor#.',
+		's16': '#singluarActor# #met# with #pluralActor#.',
+
+		's17': '#singluarActor# #singularVerb# #less# than #singluarActor#.',
+		's6': '#singluarActor# #singularVerb# #adverb# #location#.',
+		's7': '#obscene# ! #pluralActor# #singularVerb# #adverb# #location#.',
+
+		's8': '#singluarActor# #singularVerb# and #singluarActor# #singularVerb#.',
+		
+		's9': '#obscene# !',
+
+		# 's1': '#actorSG.a# is #verbGer#.',
+		# 's2': '#actorSG.a# #verbPast#.',
+
+
+		# 's0': '#nounSG# , #nounSG# and #nounSG# are #adverb# #verbGer#.',
+		# 's1': '#nounSG# , #nounSG# and #nounSG# #verbInf# #adverb#.',
+
+		# 's0': '#adjective.a# #actorSG# #verbThird# #adverb# in #cityCountry#',
+		# 's1': '#adjective.a# #actorSG# #verbThird# #adverb# in #inAplace.a#',
+		# 's2': '#adjective.a# #actorSG# #verbThird# #adverb# at #atAplace.a#',
 		# 's1': '#actorSG.a.capitalize# and #name# are happy happy happy',
-		# 's0': '#adjective.a# #actorSG# and #adjective.a# #actorSG# do it #adverb#.',
-		's0': '#name# #verbThird# #adverb#.',
-		's1': '#name# is #verbGer# #adverb#.',
-		's2': '#name# and #name# #verbInf# #adverb#.',
-		's3': '#name# and #name# #verbPast# #adverb#.',
-		's4': '#name# and #name# are #verbGer# #adverb#.',
+		
+		# 's0': '#adjective.a# #actorSG# and #adjective.a# #actorSG# #verbInf# #adverb#.',
+		# 's1': '#adjective.a# #actorSG# and #adjective.a# #actorSG# #verbPast# #adverb#.',
+		# 's2': '#adjective.a# #actorSG# and #adjective.a# #actorSG# are #verbGer#  #adverb#.',
+
+		# 's0': '#name# #verbThird# #adverb#.',
+		# 's1': '#name# is #verbGer# #adverb#.',
+		# 's2': '#name# and #name# #verbInf# #adverb#.',
+		# 's3': '#name# and #name# #verbPast# #adverb#.',
+		# 's4': '#name# and #name# are #verbGer# #adverb#.',
 		# 's0': '#name# #verbPast# #adverb# and #name# #verbPast# #adverb#.',
 		# 's1': '#name# is #verbGer# #adverb# and #name# is #verbGer# #adverb#.',
 		# 's2': '#name# #verbThird# #adverb# and #name# #verbThird# #adverb#.',
@@ -169,6 +210,16 @@ def build_sentence():
 	    # 'nounS': returnList("nounS") if hasData("nounS") > 0 else noData,
 	    # 'verb': returnList("VB") if hasData("VB") > 0 else noData,
 
+	    'pluralActor' : ['#nameOptions# and #nameOptions#', '#nameOptions# and #actorOptions#', '#actorOptions# and #nameOptions#', '#actorOptions# and #actorOptions#'],
+	    'nameOptions' : ['#name#', 'the #adjective# #name#'],
+	    'actorOptions': ['#actorSG.a#', '#adjective.a# #actorSG#'],
+
+	    'singluarActor':['#nameOptions#', '#actorOptions#'],
+	    'singularVerb': ['#verbThird#', 'is #verbGer#', '#verbPast#'],
+
+
+	    'pluralVerb' : ['#verbInf#', '#verbPast#', 'are #verbGer#'],
+	    'location' : ['in #cityCountry#', 'in #inAplace.a#', 'at #atAplace.a#'],
 
 	    'name': returnList("names") if hasData("names") > 0 else noData,
 	    'actorSG': returnList("actorsSG") if hasData("actorsSG") > 0 else noData,
@@ -179,15 +230,25 @@ def build_sentence():
 	    'verbGer': returnList("verbGer") if hasData("verbGer") > 0 else noData,
 	    'verbPast': returnList("verbPast") if hasData("verbPast") > 0 else noData,
 
+	    'atAplace': returnList("atAplaces") if hasData("atAplaces") > 0 else noData,
+	    'inAplace': returnList("inAplaces") if hasData("inAplaces") > 0 else noData,
+	    'cityCountry': returnList("citiesCountries") if hasData("citiesCountries") > 0 else noData,
+
+	    'nounSG': returnList("nounSG") if hasData("nounSG") > 0 else noData,
+
 	    
 	    'adjective': returnList("adjectives") if hasData("adjectives") > 0 else noData,
 	    'adverb': returnList("adverbs") if hasData("adverbs") > 0 else noData,
 
-	    'obscene': returnList("obscenes") if hasData("obscenes") > 0 else noData
+	    'obscene': returnList("obscenes") if hasData("obscenes") > 0 else noData,
+
+	    'less': returnList("less") if hasData("less") > 0 else noData,
+	    'met': returnList("met") if hasData("met") > 0 else noData,
+	    'point': returnList("point") if hasData("point") > 0 else noData
 	    
 
 	}
-	numPennInRules = 9
+	numPennInRules = 23
 
 	grammar = tracery.Grammar(rules)
 	grammar.add_modifiers(base_english)
@@ -286,3 +347,4 @@ def build_sentence():
 	
 
 
+# 
