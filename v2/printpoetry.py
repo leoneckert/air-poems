@@ -1,4 +1,4 @@
-# blackListExtendMode = False
+blackListExtendMode = False
 blackListExtendMode = True
 
 def getTerminalSize():

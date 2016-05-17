@@ -33,22 +33,72 @@ def channel_controller(c, c_hop_interval):
     return c
 
 
+# def sniffloop(handle_function):
+#     global current_channel
+#     count = 10
+#     alreadyInspected = set()
+#     current_channel = channel_range[-1]
+
+#     #next line makes all the difference, making sure the hoping works by disassociating fro any network before start:
+#     # subprocess.call("airport -z", shell=True)     # DEactivate for TESTING
+
+#     # for line in run("./bps_v1"):      # DEactivate for TESTING
+#     for line in open("lot_to_test.log", "r"):  # activate for TESTING
+#         #next line for channel hoping:
+#         # count = channel_controller(count, channel_hop_interval)       # DEactivate for TESTING
+#         line = line.strip()
+
+#         handle_function(line)
+
+# FOR TESTNG:
+import time
+from pprint import pprint
+startTime = 1463353999
+testdata = dict()
+deltaStart = 0
+timeschecked = set()
+# ---
 
 def sniffloop(handle_function):
     global current_channel
     count = 10
     alreadyInspected = set()
     current_channel = channel_range[-1]
-    #next line makes all the difference, making sure the hoping works by disassociating fro any network before start:
-    subprocess.call("airport -z", shell=True)		# DEactivate for TESTING
 
-    for line in run("./bps_v1"):		# DEactivate for TESTING
-    # for line in open("no_realtime_experiment_log.log", "r"):  # activate for TESTING
-		#next line for channel hoping:
-		count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
-		line = line.strip()
 
-		handle_function(line)
+    # FOR TESTNG:
+
+    for line in open("lot_to_test.log", "r"):
+        line = line.strip()
+        ts = int(line.split(',')[0])
+        if ts not in testdata:
+            testdata[ts] = list()
+        testdata[ts].append(line)   
+    print "[+] done preparing test data"
+    first = True
+    while True:
+        if first is True:
+           deltaStart = int(time.time())
+           first = False
+
+        currentFakeTime = startTime + (int(time.time()) - deltaStart)
+        if currentFakeTime in testdata and currentFakeTime not in timeschecked:
+            for line in testdata[currentFakeTime]:
+                handle_function(line)
+            timeschecked.add(currentFakeTime)
+
+
+
+
+  #   #next line makes all the difference, making sure the hoping works by disassociating fro any network before start:
+  #   subprocess.call("airport -z", shell=True)		# DEactivate for TESTING
+
+  #   for line in run("./bps_v1"):		# DEactivate for TESTING
+		# #next line for channel hoping:
+		# count = channel_controller(count, channel_hop_interval)		# DEactivate for TESTING
+		# line = line.strip()
+
+		# handle_function(line)
 
 
 # GLOBAL variables:

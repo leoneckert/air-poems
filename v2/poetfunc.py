@@ -151,65 +151,58 @@ def build_sentence():
 	rules = {	
 		's0': '#pluralActor# #pluralVerb#.',
 		's1': '#pluralActor# #pluralVerb# #adverb#.',
-		's10': '#pluralActor# #pluralVerb# #less# than #pluralActor#.',
-		's11': '#pluralActor# #pluralVerb# #less# than #singluarActor#.',
-		's14': '#pluralActor# #met# with #singluarActor#.',
-		's15': '#pluralActor# #met# with #pluralActor#.',
-		's18': '#pluralActor# #point# at #singluarActor#.',
-		's19': '#pluralActor# #point# at #pluralActor#.',
-		's20': '#pluralActor# #let# #singluarActor# be #adjective#.',
-		's21': '#pluralActor# #let# #pluralActor# be #adjective#.',
-
 		's2': '#pluralActor# #pluralVerb# #adverb# #location#.',
-		's3': '#obscene# ! #pluralActor# #pluralVerb# #adverb# #location#.',
+		's3': '#pluralActor# #pluralVerb# #adverb# and #pluralActor# #pluralVerb# #adverb#.',
+		's4': '#pluralActor# #pluralVerb# #adverb# and #singluarActor# #singularVerb# #adverb#.',
+		# SPECIAL:
+		's5': '#pluralActor# #pluralVerb# #less# than #pluralActor#.',
+		's6': '#pluralActor# #pluralVerb# #less# than #singluarActor#.',
+		's7': '#pluralActor# #met# with #singluarActor#.',
+		's8': '#pluralActor# #met# with #pluralActor#.',
+		's9': '#pluralActor# #point# at #singluarActor#.',
+		's10': '#pluralActor# #point# at #pluralActor#.',
+		's11': '#pluralActor# #let# #singluarActor# be #adjective#.',
+		's12': '#pluralActor# #let# #pluralActor# be #adjective#.',
 
-		's4': '#singluarActor# #singularVerb#.',
-		's5': '#singluarActor# #singularVerb# #adverb#.',
-		's12': '#singluarActor# #singularVerb# #less# than #pluralActor#.',
-		's13': '#singluarActor# #met# with #singluarActor#.',
-		's16': '#singluarActor# #met# with #pluralActor#.',
+		's13': '#pluralActor# #spot# #pluralActor# #location#.',
+		's14': '#pluralActor# #spot# #singluarActor# #location#.',
+		's15': '#pluralActor# #direct# #pluralActor# to be #adjective#.',
+		's16': '#pluralActor# #direct# #singluarActor# to be #adjective#.',
 
-		's17': '#singluarActor# #singularVerb# #less# than #singluarActor#.',
-		's6': '#singluarActor# #singularVerb# #adverb# #location#.',
-		's7': '#obscene# ! #pluralActor# #singularVerb# #adverb# #location#.',
+		's17': '#pluralActor# #use# #pluralActor# to #pluralVerb#.',
+		's18': '#pluralActor# #use# #singluarActor# to #pluralVerb#.',
 
-		's8': '#singluarActor# #singularVerb# and #singluarActor# #singularVerb#.',
+		's19': '#pluralActor# #ban# #pluralActor# from #verbGer#.',
+		's20': '#pluralActor# #ban# #singluarActor# from #verbGer#.',
 		
-		's9': '#obscene# !',
-
-		# 's1': '#actorSG.a# is #verbGer#.',
-		# 's2': '#actorSG.a# #verbPast#.',
 
 
-		# 's0': '#nounSG# , #nounSG# and #nounSG# are #adverb# #verbGer#.',
-		# 's1': '#nounSG# , #nounSG# and #nounSG# #verbInf# #adverb#.',
+		's21': '#singluarActor# #singularVerb#.',
+		's22': '#singluarActor# #singularVerb# #adverb#.',
+		's23': '#singluarActor# #singularVerb# #adverb# #location#.',
 
-		# 's0': '#adjective.a# #actorSG# #verbThird# #adverb# in #cityCountry#',
-		# 's1': '#adjective.a# #actorSG# #verbThird# #adverb# in #inAplace.a#',
-		# 's2': '#adjective.a# #actorSG# #verbThird# #adverb# at #atAplace.a#',
-		# 's1': '#actorSG.a.capitalize# and #name# are happy happy happy',
+		# SPECIAL
+		's24': '#singluarActor# #singularVerb# #less# than #pluralActor#.',
+		's25': '#singluarActor# #singularVerb# #less# than #singluarActor#.',
+		's26': '#singluarActor# #singularVerb# #adverb# #less# than #pluralActor# #adverb#.',
+		's27': '#singluarActor# #singularVerb# #adverb# #less# than #singluarActor# #adverb#.',
+		's28': '#singluarActor# #lets# #singluarActor# be #adjective#.',
+		's29': '#singluarActor# #lets# #pluralActor# be #adjective#.',
+		's30': '#singluarActor# #spots# #pluralActor# #location#.',
+		's31': '#singluarActor# #spots# #singluarActor# #location#.',
 		
-		# 's0': '#adjective.a# #actorSG# and #adjective.a# #actorSG# #verbInf# #adverb#.',
-		# 's1': '#adjective.a# #actorSG# and #adjective.a# #actorSG# #verbPast# #adverb#.',
-		# 's2': '#adjective.a# #actorSG# and #adjective.a# #actorSG# are #verbGer#  #adverb#.',
+		's32': '#singluarActor# #singularVerb# #adverb# and #singluarActor# #singularVerb# #adverb#.',
+		's33': '#singluarActor# #singularVerb# #adverb# and #pluralActor# #pluralVerb# #adverb#.',
+		
+		's34': '#obscene# !',
 
-		# 's0': '#name# #verbThird# #adverb#.',
-		# 's1': '#name# is #verbGer# #adverb#.',
-		# 's2': '#name# and #name# #verbInf# #adverb#.',
-		# 's3': '#name# and #name# #verbPast# #adverb#.',
-		# 's4': '#name# and #name# are #verbGer# #adverb#.',
-		# 's0': '#name# #verbPast# #adverb# and #name# #verbPast# #adverb#.',
-		# 's1': '#name# is #verbGer# #adverb# and #name# is #verbGer# #adverb#.',
-		# 's2': '#name# #verbThird# #adverb# and #name# #verbThird# #adverb#.',
-		# 's3': '#name.capitalize# and #actorSG.a# are happy happy happy',
 
-	    # 's0': '#nounS.a.capitalize# and #nounS.a# #verb# with #nounS.a#',
-	    # 's1': '#name# and #name# #verb# with #nounS.a#',
-	    # 's2': 'The #adjective# #name# and the #adjective# #name# #verb# with #nounS.a#',
-	    
-	    # 'nounS': returnList("nounS") if hasData("nounS") > 0 else noData,
-	    # 'verb': returnList("VB") if hasData("VB") > 0 else noData,
 
+
+
+
+
+		
 	    'pluralActor' : ['#nameOptions# and #nameOptions#', '#nameOptions# and #actorOptions#', '#actorOptions# and #nameOptions#', '#actorOptions# and #actorOptions#'],
 	    'nameOptions' : ['#name#', 'the #adjective# #name#'],
 	    'actorOptions': ['#actorSG.a#', '#adjective.a# #actorSG#'],
@@ -244,11 +237,18 @@ def build_sentence():
 
 	    'less': returnList("less") if hasData("less") > 0 else noData,
 	    'met': returnList("met") if hasData("met") > 0 else noData,
-	    'point': returnList("point") if hasData("point") > 0 else noData
+	    'point': returnList("point") if hasData("point") > 0 else noData,
+	    'let': returnList("let") if hasData("let") > 0 else noData,
+	    'lets': returnList("lets") if hasData("lets") > 0 else noData,
+	    'spot': returnList("spot") if hasData("spot") > 0 else noData,
+	    'direct': returnList("direct") if hasData("direct") > 0 else noData,
+	    'use': returnList("use") if hasData("use") > 0 else noData,
+	    'spots': returnList("spots") if hasData("spots") > 0 else noData,
+	    'ban': returnList("ban") if hasData("ban") > 0 else noData
 	    
 
 	}
-	numPennInRules = 23
+	numPennInRules = 30
 
 	grammar = tracery.Grammar(rules)
 	grammar.add_modifiers(base_english)
